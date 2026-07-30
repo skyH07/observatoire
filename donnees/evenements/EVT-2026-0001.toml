@@ -1,0 +1,107 @@
+contrat = 1
+id = "EVT-2026-0001"
+statut = "exemple"
+
+[fait]
+date = "2026-02-11"
+type = "homicide"
+departement = "34"
+milieu = "urbain"
+victimes = 1
+mineur_implique = true
+# Résumé strictement factuel, sans qualificatif, sans nom de personne.
+resume = "Une personne est décédée après une altercation en centre-ville. Un mineur a été placé en garde à vue."
+
+[[fait.source_primaire]]
+type = "depeche"
+reference = "FIL-2026-02-11-1432"
+date = "2026-02-11"
+note = "Dépêche de référence : c'est elle qui définit la fenêtre de couverture possible."
+
+[[fait.source_primaire]]
+type = "audience"
+reference = "TJ-34-2026-0912"
+date = "2026-06-03"
+note = "Compte rendu d'audience, six semaines après les faits."
+
+[[article]]
+id = "ART-0001"
+media = "courrier-matin"
+url = "https://exemple.invalid/courrier/2026/02/11/a"
+archive = "https://web.archive.org/web/2026/https://exemple.invalid/courrier/2026/02/11/a"
+publication = "2026-02-11T18:40:00Z"
+signes = 2140
+position_une = true
+
+[[article.releve]]
+horodatage = "2026-02-11T18:40:00Z"
+titre = "Un mort après une rixe en centre-ville, un adolescent interpellé"
+
+[[article.releve]]
+horodatage = "2026-02-12T08:05:00Z"
+titre = "Rixe mortelle en centre-ville : l'adolescent interpellé était suivi par l'aide sociale à l'enfance"
+
+[article.codage]
+cadre = "fait_divers"
+mentionne_origine = false
+mentionne_nationalite = false
+mentionne_religion = false
+mentionne_antecedents_judiciaires = true
+mentionne_sante_mentale = false
+mentionne_milieu_social = true
+mentionne_parcours_scolaire = true
+centre_sur_victime = false
+codeurs = ["ac", "mb"]
+accord = true
+
+[[article]]
+id = "ART-0002"
+media = "canal-info"
+url = "https://exemple.invalid/canalinfo/2026/02/11/b"
+archive = "https://web.archive.org/web/2026/https://exemple.invalid/canalinfo/2026/02/11/b"
+publication = "2026-02-11T19:12:00Z"
+signes = 900
+position_une = true
+
+[[article.releve]]
+horodatage = "2026-02-11T19:12:00Z"
+titre = "Insécurité : un homme tué en pleine rue, le suspect a 16 ans"
+
+[article.codage]
+cadre = "securite_publique"
+mentionne_origine = false
+mentionne_nationalite = false
+mentionne_religion = false
+mentionne_antecedents_judiciaires = true
+mentionne_sante_mentale = false
+mentionne_milieu_social = false
+mentionne_parcours_scolaire = false
+centre_sur_victime = false
+codeurs = ["ac", "mb"]
+accord = true
+
+[[article]]
+id = "ART-0003"
+media = "depeche-regionale"
+url = "https://exemple.invalid/regionale/2026/02/11/c"
+archive = "https://web.archive.org/web/2026/https://exemple.invalid/regionale/2026/02/11/c"
+publication = "2026-02-11T17:05:00Z"
+signes = 3400
+position_une = false
+
+[[article.releve]]
+horodatage = "2026-02-11T17:05:00Z"
+titre = "Altercation mortelle rue des Étuves : ce que l'on sait"
+
+[article.codage]
+cadre = "judiciaire"
+mentionne_origine = false
+mentionne_nationalite = false
+mentionne_religion = false
+mentionne_antecedents_judiciaires = false
+mentionne_sante_mentale = false
+mentionne_milieu_social = true
+mentionne_parcours_scolaire = true
+centre_sur_victime = true
+codeurs = ["ac", "mb"]
+accord = true

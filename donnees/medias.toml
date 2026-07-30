@@ -1,0 +1,43 @@
+contrat = 1
+
+# Le périmètre de suivi. Un média absent de ce fichier ne peut pas être
+# comptabilisé comme « n'ayant pas couvert » : on ne mesure une omission
+# que sur un périmètre déclaré à l'avance.
+#
+# Ajouter un média se fait par proposition de modification, et vaut
+# uniquement pour les événements postérieurs à `suivi_depuis`.
+
+[[media]]
+id = "courrier-matin"
+nom = "Le Courrier du Matin"
+famille = "quotidien_national"
+suivi_depuis = "2026-01-01"
+flux = "https://exemple.invalid/courrier/rss"
+
+[[media]]
+id = "gazette-soir"
+nom = "La Gazette du Soir"
+famille = "quotidien_national"
+suivi_depuis = "2026-01-01"
+flux = "https://exemple.invalid/gazette/rss"
+
+[[media]]
+id = "depeche-regionale"
+nom = "La Dépêche Régionale"
+famille = "presse_regionale"
+suivi_depuis = "2026-01-01"
+flux = "https://exemple.invalid/regionale/rss"
+
+[[media]]
+id = "canal-info"
+nom = "Canal Info"
+famille = "chaine_information"
+suivi_depuis = "2026-01-01"
+flux = "https://exemple.invalid/canalinfo/rss"
+
+[[media]]
+id = "hebdo-national"
+nom = "L'Hebdomadaire"
+famille = "hebdomadaire"
+suivi_depuis = "2026-01-01"
+flux = "https://exemple.invalid/hebdo/rss"

@@ -1,0 +1,68 @@
+name: Valider, relever, publier
+
+on:
+  push:
+    branches: [principale]
+  pull_request:
+  schedule:
+    - cron: "17 5 * * *"   # relevé quotidien des titres
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: observatoire
+  cancel-in-progress: false
+
+jobs:
+  valider:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Vérifier le contrat de données
+        run: python3 scripts/valider.py
+
+  relever:
+    # Seule écriture automatique autorisée : constater qu'un titre a changé.
+    # Le rattachement d'un article à un événement reste une décision humaine.
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    needs: valider
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Relever les titres
+        run: python3 scripts/ingerer.py --releves
+      - name: Revalider avant écriture
+        run: python3 scripts/valider.py
+      - name: Consigner
+        run: |
+          git config user.name "collecte automatique"
+          git config user.email "collecte@localhost"
+          git add donnees/
+          git diff --staged --quiet || git commit -m "relevé des titres du $(date -u +%Y-%m-%d)"
+          git push
+
+  publier:
+    if: github.ref == 'refs/heads/principale'
+    needs: valider
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Construire le site
+        run: python3 scripts/construire.py
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - uses: actions/deploy-pages@v4

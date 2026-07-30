@@ -1,0 +1,45 @@
+contrat = 1
+id = "EVT-2026-0002"
+statut = "exemple"
+
+[fait]
+date = "2026-02-13"
+type = "homicide"
+departement = "62"
+milieu = "rural"
+victimes = 1
+mineur_implique = true
+resume = "Une personne est décédée des suites de coups portés lors d'une dispute de voisinage. Un mineur a été mis en examen."
+
+[[fait.source_primaire]]
+type = "depeche"
+reference = "FIL-2026-02-13-0918"
+date = "2026-02-13"
+note = "Dépêche de référence. Fait de gravité comparable à EVT-2026-0001, apparié sur type, nombre de victimes et âge du mis en cause."
+
+[[article]]
+id = "ART-0004"
+media = "depeche-regionale"
+url = "https://exemple.invalid/regionale/2026/02/13/d"
+archive = "https://web.archive.org/web/2026/https://exemple.invalid/regionale/2026/02/13/d"
+publication = "2026-02-13T12:30:00Z"
+signes = 1800
+position_une = false
+
+[[article.releve]]
+horodatage = "2026-02-13T12:30:00Z"
+titre = "Dispute de voisinage : un homme meurt sous les coups"
+
+[article.codage]
+cadre = "fait_divers"
+mentionne_origine = false
+mentionne_nationalite = false
+mentionne_religion = false
+mentionne_antecedents_judiciaires = false
+mentionne_sante_mentale = true
+mentionne_milieu_social = true
+mentionne_parcours_scolaire = false
+centre_sur_victime = true
+codeurs = ["ac", "mb"]
+accord = false
+note_desaccord = "Désaccord sur `mentionne_sante_mentale` : l'article évoque un « suivi médical » sans préciser sa nature. Valeur retenue par application de la règle 4.2 du manuel ; le désaccord reste consigné."

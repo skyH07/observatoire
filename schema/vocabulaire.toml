@@ -1,0 +1,46 @@
+contrat = 1
+
+[fait]
+type = [
+  "homicide",
+  "coups_et_blessures",
+  "violence_sexuelle",
+  "vol_avec_violence",
+  "incendie_volontaire",
+  "atteinte_aux_biens",
+  "accident",
+  "autre",
+]
+milieu = ["urbain", "periurbain", "rural"]
+
+[source_primaire]
+type = [
+  "depeche",
+  "audience",
+  "decision_de_justice",
+  "communique_officiel",
+  "publication_statistique",
+]
+
+[codage]
+cadre = [
+  "fait_divers",
+  "securite_publique",
+  "judiciaire",
+  "social",
+  "politique",
+]
+
+booleens = [
+  "mentionne_origine",
+  "mentionne_nationalite",
+  "mentionne_religion",
+  "mentionne_antecedents_judiciaires",
+  "mentionne_sante_mentale",
+  "mentionne_milieu_social",
+  "mentionne_parcours_scolaire",
+  "centre_sur_victime",
+]
+
+[interdits]
+cles = ["texte", "contenu", "corps", "article_integral", "transcription"]

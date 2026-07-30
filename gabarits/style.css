@@ -1,0 +1,269 @@
+:root {
+  --papier: #eaebe5;
+  --carte: #f4f5f0;
+  --encre: #1a1d18;
+  --encre-2: #565b52;
+  --encre-3: #8b8f85;
+  --trait: #c9ccc2;
+  --source: #2c5d48;
+  --revision: #6e3455;
+  --absence: #a9ada2;
+  --serif: "Newsreader", Georgia, "Times New Roman", serif;
+  --sans: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --papier: #16180f;
+    --carte: #1e211a;
+    --encre: #e8e9e2;
+    --encre-2: #a8ada1;
+    --encre-3: #7a7f74;
+    --trait: #363a31;
+    --source: #7fbfa1;
+    --revision: #d093b4;
+    --absence: #4a4f45;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--papier);
+  color: var(--encre);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+.enveloppe {
+  max-width: 66rem;
+  margin: 0 auto;
+  padding: 0 1.5rem 6rem;
+}
+
+a { color: inherit; text-decoration-color: var(--trait); text-underline-offset: 3px; }
+a:hover { text-decoration-color: var(--encre); }
+:focus-visible { outline: 2px solid var(--revision); outline-offset: 3px; }
+
+/* En-tête ------------------------------------------------------------ */
+
+.bandeau {
+  border-bottom: 1px solid var(--trait);
+  margin-bottom: 2.5rem;
+}
+
+.bandeau-interne {
+  max-width: 66rem;
+  margin: 0 auto;
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 2rem;
+  align-items: baseline;
+}
+
+.marque {
+  font-family: var(--serif);
+  font-size: 1.25rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+}
+
+.navigation { display: flex; gap: 1.5rem; margin-left: auto; }
+.navigation a { font-size: 0.9rem; color: var(--encre-2); }
+
+.avis {
+  background: var(--carte);
+  border: 1px solid var(--trait);
+  border-radius: 3px;
+  padding: 0.75rem 1rem;
+  font-size: 0.875rem;
+  color: var(--encre-2);
+  margin-bottom: 2.5rem;
+}
+
+/* Typographie -------------------------------------------------------- */
+
+h1 {
+  font-family: var(--serif);
+  font-size: clamp(1.9rem, 4vw, 2.6rem);
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.75rem;
+}
+
+h2 {
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--encre-2);
+  margin: 3rem 0 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--trait);
+}
+
+h3 { font-family: var(--sans); font-size: 1.05rem; font-weight: 600; margin: 2rem 0 0.5rem; }
+
+.chapeau {
+  font-family: var(--serif);
+  font-size: 1.2rem;
+  line-height: 1.55;
+  color: var(--encre-2);
+  max-width: 42rem;
+  margin: 0 0 2rem;
+}
+
+.ref {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  color: var(--encre-3);
+}
+
+/* Fiche du fait ------------------------------------------------------- */
+
+.plan-evenement { display: grid; grid-template-columns: 20rem 1fr; gap: 3rem; align-items: start; }
+
+@media (max-width: 62rem) {
+  .plan-evenement { grid-template-columns: 1fr; gap: 2rem; }
+  .fiche { position: static !important; }
+}
+
+.fiche {
+  position: sticky;
+  top: 1.5rem;
+  background: var(--carte);
+  border: 1px solid var(--trait);
+  border-radius: 3px;
+  padding: 1.25rem;
+}
+
+.fiche h2 { margin-top: 0; }
+.fiche dl { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 0.35rem 1rem; font-size: 0.875rem; }
+.fiche dt { color: var(--encre-3); }
+.fiche dd { margin: 0; font-family: var(--mono); font-size: 0.8rem; }
+.fiche .resume { font-family: var(--serif); font-size: 1rem; line-height: 1.5; margin: 1rem 0 0; padding-top: 1rem; border-top: 1px solid var(--trait); }
+
+.source-primaire {
+  border-left: 2px solid var(--source);
+  padding: 0.15rem 0 0.15rem 0.75rem;
+  margin: 0.75rem 0;
+  font-size: 0.85rem;
+}
+.source-primaire .ref { color: var(--source); }
+
+/* Couverture ---------------------------------------------------------- */
+
+.article { border-top: 1px solid var(--trait); padding: 1.5rem 0; }
+.article:first-of-type { border-top: none; }
+
+.article-entete {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  align-items: baseline;
+  margin-bottom: 0.6rem;
+}
+.article-media { font-weight: 600; font-size: 0.95rem; }
+
+.titre-releve {
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  line-height: 1.3;
+  margin: 0.2rem 0;
+}
+
+.titre-remplace {
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  line-height: 1.35;
+  margin: 0.2rem 0;
+  color: var(--revision);
+  text-decoration: line-through;
+  text-decoration-thickness: 1px;
+}
+
+.mention-revision {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--revision);
+  letter-spacing: 0.03em;
+}
+
+.etiquettes { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 0.85rem; }
+
+.etiquette {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  padding: 0.15rem 0.5rem;
+  border: 1px solid var(--trait);
+  border-radius: 2px;
+  color: var(--encre-2);
+}
+.etiquette-active { border-color: var(--source); color: var(--source); }
+.etiquette-cadre { border-color: var(--encre-2); color: var(--encre); }
+
+.desaccord {
+  border-left: 2px solid var(--revision);
+  padding-left: 0.75rem;
+  margin-top: 0.85rem;
+  font-size: 0.85rem;
+  color: var(--encre-2);
+}
+
+/* Bande de couverture -------------------------------------------------- */
+
+.bande { width: 100%; height: auto; display: block; margin: 0.5rem 0 1rem; }
+.bande text { font-family: var(--mono); font-size: 10px; fill: var(--encre-2); }
+.bande .ligne-vide { stroke: var(--absence); stroke-width: 1; stroke-dasharray: 2 4; }
+.bande .ligne-pleine { stroke: var(--trait); stroke-width: 1; }
+.bande .repere { stroke: var(--trait); stroke-width: 1; stroke-dasharray: 1 3; }
+.bande .parution { fill: var(--source); }
+.bande .revision { fill: none; stroke: var(--revision); stroke-width: 1.5; }
+.bande .absent { fill: var(--absence); }
+
+/* Tableaux et listes --------------------------------------------------- */
+
+table { width: 100%; border-collapse: collapse; font-size: 0.9rem; margin: 1rem 0; }
+th { text-align: left; font-weight: 600; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--encre-3); padding: 0 0.75rem 0.5rem 0; border-bottom: 1px solid var(--trait); }
+td { padding: 0.6rem 0.75rem 0.6rem 0; border-bottom: 1px solid var(--trait); vertical-align: top; }
+td.nombre, th.nombre { font-family: var(--mono); font-size: 0.85rem; text-align: right; padding-right: 0; }
+
+.liste-evenements { list-style: none; padding: 0; margin: 0; }
+.liste-evenements li { border-bottom: 1px solid var(--trait); padding: 1.1rem 0; }
+.liste-evenements a { font-family: var(--serif); font-size: 1.25rem; text-decoration: none; }
+.liste-evenements a:hover { text-decoration: underline; }
+.meta { font-size: 0.85rem; color: var(--encre-2); margin-top: 0.3rem; }
+
+.effectif { font-family: var(--mono); font-size: 0.75rem; color: var(--encre-3); }
+
+.garde-fou {
+  background: var(--carte);
+  border-left: 2px solid var(--revision);
+  padding: 0.85rem 1rem;
+  font-size: 0.875rem;
+  color: var(--encre-2);
+  margin: 1rem 0;
+}
+
+.pied {
+  margin-top: 4rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--trait);
+  font-size: 0.85rem;
+  color: var(--encre-3);
+}
+
+.prose { max-width: 42rem; }
+.prose ul, .prose ol { padding-left: 1.25rem; }
+.prose li { margin: 0.35rem 0; }
+.prose code { font-family: var(--mono); font-size: 0.85em; background: var(--carte); padding: 0.1rem 0.3rem; border-radius: 2px; }
+.prose blockquote { margin: 1.25rem 0; padding-left: 1rem; border-left: 2px solid var(--source); color: var(--encre-2); font-style: normal; }
