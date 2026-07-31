@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """Construit le site statique à partir des fichiers de donnees/.
-
+ 
 Aucune dépendance externe : bibliothèque standard uniquement. Le site produit
 est entièrement statique, donc hébergeable n'importe où et archivable tel quel.
-
+ 
 Usage :  python3 scripts/construire.py
 Sortie : site/
 """
-
+ 
 from __future__ import annotations
-
+ 
 import csv
 import html
 import json
@@ -20,35 +20,35 @@ import sys
 import tomllib
 from datetime import date, datetime, time, timezone
 from pathlib import Path
-
+ 
 RACINE = Path(__file__).resolve().parent.parent
 SORTIE = RACINE / "site"
-
+ 
 TITRE_SITE = "Observatoire du traitement de l'information"
 EFFECTIF_PRUDENCE = 20  # en dessous, aucun taux n'est affiché sans avertissement
-
+ 
 e = html.escape
-
-
+ 
+ 
 # --- Lecture ---------------------------------------------------------------
-
+ 
 def lire_toml(chemin: Path) -> dict:
     with chemin.open("rb") as f:
         return tomllib.load(f)
-
-
+ 
+ 
 def en_date(valeur) -> date:
     return date.fromisoformat(str(valeur))
-
-
+ 
+ 
 def en_horodatage(valeur) -> datetime:
     brut = str(valeur).replace("Z", "+00:00")
     marque = datetime.fromisoformat(brut)
     if marque.tzinfo is None:
         marque = marque.replace(tzinfo=timezone.utc)
     return marque.astimezone(timezone.utc)
-
-
+ 
+ 
 def charger() -> tuple[dict, dict, list[dict]]:
     vocab = lire_toml(RACINE / "schema" / "vocabulaire.toml")
     medias = {m["id"]: m for m in lire_toml(RACINE / "donnees" / "medias.toml")["media"]}
@@ -58,43 +58,65 @@ def charger() -> tuple[dict, dict, list[dict]]:
     ]
     evenements.sort(key=lambda ev: ev["fait"]["date"], reverse=True)
     return vocab, medias, evenements
-
-
+ 
+ 
 # --- Mesures ---------------------------------------------------------------
-
-def medias_eligibles(medias: dict, jour: date) -> list[dict]:
-    """Un média ne peut être compté comme silencieux que s'il était déjà suivi."""
-    return [m for m in medias.values() if en_date(m["suivi_depuis"]) <= jour]
-
-
+ 
+def couvre_territoire(media: dict, evenement: dict) -> bool:
+    """Un média sans champ `departements` est national : il couvre tout.
+    Un média territorial ne couvre que ses départements déclarés."""
+    departements = media.get("departements")
+    if not departements:
+        return True
+    return str(evenement["fait"]["departement"]) in {str(d) for d in departements}
+ 
+ 
+def medias_eligibles(medias: dict, evenement: dict) -> list[dict]:
+    """Un média ne peut être compté comme silencieux que s'il était déjà
+    suivi à la date du fait ET que le fait est dans son territoire.
+    Compter un titre régional comme muet sur un fait hors de sa zone ne
+    mesurerait pas une omission, mais une évidence de diffusion."""
+    jour = en_date(evenement["fait"]["date"])
+    return [
+        m for m in medias.values()
+        if en_date(m["suivi_depuis"]) <= jour and couvre_territoire(m, evenement)
+    ]
+ 
+ 
 def mesurer_evenement(evenement: dict, medias: dict) -> dict:
     jour = en_date(evenement["fait"]["date"])
     origine = datetime.combine(jour, time.min, tzinfo=timezone.utc)
     articles = evenement.get("article", [])
-    eligibles = medias_eligibles(medias, jour)
-    couvrants = {a["media"] for a in articles}
-
+    eligibles = medias_eligibles(medias, evenement)
+    ids_eligibles = {m["id"] for m in eligibles}
+    couvrants_tous = {a["media"] for a in articles}
+    couvrants = couvrants_tous & ids_eligibles
+ 
     delais = [
         (en_horodatage(a["publication"]) - origine).total_seconds() / 3600
         for a in articles
     ]
     revisions = sum(max(0, len(a.get("releve", [])) - 1) for a in articles)
-
+ 
     return {
         "origine": origine,
         "articles": len(articles),
         "eligibles": len(eligibles),
         "couvrants": len(couvrants),
-        "silencieux": [m for m in eligibles if m["id"] not in couvrants],
+        "hors_perimetre": sorted(couvrants_tous - ids_eligibles),
+        "silencieux": [m for m in eligibles if m["id"] not in couvrants_tous],
         "delai_premier": min(delais) if delais else None,
         "revisions": revisions,
     }
-
-
+ 
+ 
 def mesurer_media(media: dict, evenements: list[dict], vocab: dict) -> dict:
     depuis = en_date(media["suivi_depuis"])
-    eligibles = [ev for ev in evenements if en_date(ev["fait"]["date"]) >= depuis]
-
+    eligibles = [
+        ev for ev in evenements
+        if en_date(ev["fait"]["date"]) >= depuis and couvre_territoire(media, ev)
+    ]
+ 
     couverts, delais, longueurs, codes, cadres = 0, [], [], [], {}
     for evenement in eligibles:
         siens = [a for a in evenement.get("article", []) if a["media"] == media["id"]]
@@ -114,13 +136,13 @@ def mesurer_media(media: dict, evenements: list[dict], vocab: dict) -> dict:
             if codage:
                 codes.append(codage)
                 cadres[codage["cadre"]] = cadres.get(codage["cadre"], 0) + 1
-
+ 
     frequences = {}
     if codes:
         for variable in vocab["codage"]["booleens"]:
             presents = sum(1 for c in codes if c.get(variable))
             frequences[variable] = (presents, len(codes))
-
+ 
     return {
         "eligibles": len(eligibles),
         "couverts": couverts,
@@ -131,17 +153,24 @@ def mesurer_media(media: dict, evenements: list[dict], vocab: dict) -> dict:
         "frequences": frequences,
         "cadres": cadres,
     }
-
-
+ 
+ 
 # --- Bande de couverture ---------------------------------------------------
-
+ 
 def bande(evenement: dict, medias: dict, mesures: dict) -> str:
     """Une ligne par média suivi. Les médias qui n'ont rien publié gardent
     leur ligne : c'est le seul moyen de voir une omission."""
-    jour = en_date(evenement["fait"]["date"])
-    eligibles = sorted(medias_eligibles(medias, jour), key=lambda m: m["nom"])
+    eligibles = medias_eligibles(medias, evenement)
+    ids = {m["id"] for m in eligibles}
+    couvrants = {a["media"] for a in evenement.get("article", [])}
+    # Un média hors périmètre qui a quand même publié garde sa ligne :
+    # sa couverture est un fait, elle n'entre juste pas dans le taux.
+    lignes = sorted(
+        eligibles + [medias[i] for i in couvrants - ids if i in medias],
+        key=lambda m: m["nom"],
+    )
     origine = mesures["origine"]
-
+ 
     marques = [
         en_horodatage(r["horodatage"])
         for a in evenement.get("article", [])
@@ -150,25 +179,25 @@ def bande(evenement: dict, medias: dict, mesures: dict) -> str:
     fin_h = max([(m - origine).total_seconds() / 3600 for m in marques] + [47.0])
     jours = int(fin_h // 24) + 1
     portee = jours * 24
-
+ 
     x0, x1 = 170, 700
     def px(heures: float) -> float:
         return x0 + (heures / portee) * (x1 - x0)
-
+ 
     haut, pas = 34, 24
-    hauteur = haut + len(eligibles) * pas + 14
+    hauteur = haut + len(lignes) * pas + 14
     out = [
         f'<svg class="bande" viewBox="0 0 720 {hauteur}" role="img" '
         f'aria-label="Couverture par média, {mesures["couvrants"]} sur '
         f'{mesures["eligibles"]} médias suivis">'
     ]
-
+ 
     for j in range(jours + 1):
         x = px(j * 24)
         out.append(f'<line class="repere" x1="{x:.1f}" y1="26" x2="{x:.1f}" y2="{hauteur - 14}"/>')
         out.append(f'<text x="{x:.1f}" y="18" text-anchor="middle">J+{j}</text>')
-
-    for i, media in enumerate(eligibles):
+ 
+    for i, media in enumerate(lignes):
         y = haut + i * pas + 6
         siens = [a for a in evenement.get("article", []) if a["media"] == media["id"]]
         classe = "ligne-pleine" if siens else "ligne-vide"
@@ -192,13 +221,13 @@ def bande(evenement: dict, medias: dict, mesures: dict) -> str:
                         f'<line class="revision" x1="{x:.1f}" y1="{y - 5}" '
                         f'x2="{x:.1f}" y2="{y + 5}"/>'
                     )
-
+ 
     out.append("</svg>")
     return "\n".join(out)
-
-
+ 
+ 
 # --- Gabarits --------------------------------------------------------------
-
+ 
 def page(titre: str, corps: str, profondeur: int = 0) -> str:
     r = "../" * profondeur
     return f"""<!doctype html>
@@ -233,8 +262,8 @@ nouvelle version et laissent la précédente visible dans l'historique du dépô
 </body>
 </html>
 """
-
-
+ 
+ 
 def avertissement_effectif(n: int) -> str:
     if n >= EFFECTIF_PRUDENCE:
         return ""
@@ -243,10 +272,10 @@ def avertissement_effectif(n: int) -> str:
         f"qu'un écart entre médias soit interprétable. Les chiffres ci-dessous "
         f"décrivent le corpus, ils ne mesurent rien.</p>"
     )
-
-
+ 
+ 
 # --- Pages -----------------------------------------------------------------
-
+ 
 def page_accueil(evenements: list[dict], medias: dict) -> str:
     total_articles = sum(len(ev.get("article", [])) for ev in evenements)
     total_revisions = sum(
@@ -254,7 +283,7 @@ def page_accueil(evenements: list[dict], medias: dict) -> str:
         for ev in evenements
         for a in ev.get("article", [])
     )
-
+ 
     lignes = []
     for evenement in evenements:
         m = mesurer_evenement(evenement, medias)
@@ -268,16 +297,16 @@ def page_accueil(evenements: list[dict], medias: dict) -> str:
 {m['revisions']} révision(s) de titre</p>
 </li>"""
         )
-
+ 
     return f"""<h1>Ce qui a eu lieu, et ce qui en a été publié</h1>
 <p class="chapeau">Chaque fait est enregistré à partir d'une source qui ne vient pas
 de la presse. La couverture s'y rattache ensuite. Un média suivi qui ne publie rien
 garde sa ligne : l'absence se lit aussi bien que la présence.</p>
-
+ 
 <div class="avis">Jeu de démonstration. Les faits, les médias et les titres sont
 fictifs et servent uniquement à montrer la structure. Aucun chiffre de cette page
 ne décrit la presse réelle.</div>
-
+ 
 <h2>Corpus</h2>
 <table>
 <tr><th>Événements</th><th>Articles rattachés</th><th>Médias suivis</th><th>Révisions de titre relevées</th></tr>
@@ -285,23 +314,23 @@ ne décrit la presse réelle.</div>
 <td class="nombre">{len(medias)}</td><td class="nombre">{total_revisions}</td></tr>
 </table>
 {avertissement_effectif(len(evenements))}
-
+ 
 <h2>Événements</h2>
 <ul class="liste-evenements">{''.join(lignes)}</ul>
 """
-
-
+ 
+ 
 def page_evenement(evenement: dict, medias: dict) -> str:
     fait = evenement["fait"]
     m = mesurer_evenement(evenement, medias)
-
+ 
     sources = "".join(
         f"""<div class="source-primaire">
 <span class="ref">{e(s['reference'])}</span> · {e(s['type'])} · {e(str(s.get('date', '')))}
 <br>{e(s.get('note', ''))}</div>"""
         for s in fait.get("source_primaire", [])
     )
-
+ 
     silencieux = (
         "<p class=\"meta\">Aucune reprise relevée chez : "
         + ", ".join(e(x["nom"]) for x in m["silencieux"])
@@ -309,7 +338,15 @@ def page_evenement(evenement: dict, medias: dict) -> str:
         if m["silencieux"]
         else ""
     )
-
+    if m["hors_perimetre"]:
+        noms = ", ".join(
+            e(medias.get(i, {}).get("nom", i)) for i in m["hors_perimetre"]
+        )
+        silencieux += (
+            f'<p class="meta">Couverture hors périmètre territorial : {noms} '
+            f"(enregistrée, mais hors taux de reprise).</p>"
+        )
+ 
     blocs = []
     for article in sorted(evenement.get("article", []), key=lambda a: a["publication"]):
         releves = article.get("releve", [])
@@ -324,7 +361,7 @@ def page_evenement(evenement: dict, medias: dict) -> str:
                     f'{e(str(releve["horodatage"])[:16].replace("T", " à "))}</p>'
                     f'<p class="titre-remplace">{e(releve["titre"])}</p>'
                 )
-
+ 
         codage = article.get("codage")
         etiquettes = ""
         desaccord = ""
@@ -341,7 +378,7 @@ def page_evenement(evenement: dict, medias: dict) -> str:
             etiquettes = f'<div class="etiquettes">{"".join(items)}</div>'
             if codage.get("accord") is False:
                 desaccord = f'<p class="desaccord">{e(codage.get("note_desaccord", ""))}</p>'
-
+ 
         nom = medias.get(article["media"], {}).get("nom", article["media"])
         signes = f" · {article['signes']} signes" if "signes" in article else ""
         une = " · en une" if article.get("position_une") else ""
@@ -358,7 +395,7 @@ def page_evenement(evenement: dict, medias: dict) -> str:
 <a href="{e(article['archive'])}">copie archivée</a></p>
 </article>"""
         )
-
+ 
     return f"""<div class="plan-evenement">
 <aside class="fiche">
 <h2>Le fait</h2>
@@ -374,7 +411,7 @@ def page_evenement(evenement: dict, medias: dict) -> str:
 <h2>Sources primaires</h2>
 {sources}
 </aside>
-
+ 
 <main>
 <h1>Couverture</h1>
 <p class="chapeau">{m['couvrants']} média(s) sur {m['eligibles']} suivis ont publié.
@@ -386,8 +423,8 @@ def page_evenement(evenement: dict, medias: dict) -> str:
 </main>
 </div>
 """
-
-
+ 
+ 
 def page_medias(medias: dict, evenements: list[dict], vocab: dict) -> str:
     lignes = []
     for media in sorted(medias.values(), key=lambda m: m["nom"]):
@@ -405,7 +442,7 @@ def page_medias(medias: dict, evenements: list[dict], vocab: dict) -> str:
 <td class="nombre">{longueur}</td>
 </tr>"""
         )
-
+ 
     return f"""<h1>Médias suivis</h1>
 <p class="chapeau">Le taux de reprise rapporte les événements couverts aux
 événements du corpus déjà suivis à leur date. Il ne dit rien de la qualité du
@@ -417,11 +454,11 @@ traitement, seulement de la sélection.</p>
 {''.join(lignes)}
 </table>
 """
-
-
+ 
+ 
 def page_media(media: dict, evenements: list[dict], vocab: dict) -> str:
     s = mesurer_media(media, evenements, vocab)
-
+ 
     if s["codes"]:
         lignes = "".join(
             f'<tr><td>{e(variable.replace("_", " "))}</td>'
@@ -433,12 +470,12 @@ def page_media(media: dict, evenements: list[dict], vocab: dict) -> str:
 <table><tr><th>Variable</th><th class="nombre">Présence</th></tr>{lignes}</table>"""
     else:
         frequences = '<p class="meta">Aucun article codé pour ce média.</p>'
-
+ 
     cadres = "".join(
         f'<tr><td>{e(cadre)}</td><td class="nombre">{n}</td></tr>'
         for cadre, n in sorted(s["cadres"].items(), key=lambda x: -x[1])
     )
-
+ 
     taux = f"{s['taux']:.0%}" if s["taux"] is not None else "—"
     return f"""<h1>{e(media['nom'])}</h1>
 <p class="chapeau"><span class="ref">{e(media['id'])} · {e(media['famille'])} ·
@@ -454,8 +491,8 @@ suivi depuis le {e(media['suivi_depuis'])}</span></p>
 <h2>Cadres retenus</h2>
 <table><tr><th>Cadre</th><th class="nombre">Articles</th></tr>{cadres or '<tr><td>—</td><td class="nombre">0</td></tr>'}</table>
 """
-
-
+ 
+ 
 def page_donnees(evenements: list[dict]) -> str:
     return f"""<h1>Données</h1>
 <p class="chapeau">Le dépôt fait foi. Ces exports en sont dérivés à chaque
@@ -472,10 +509,10 @@ refuse toute donnée qui contiendrait un corps d'article. Les mesures n'en ont
 pas besoin, et la reproduction n'en serait pas licite.</p>
 <p class="effectif">{len(evenements)} événement(s) dans cette version.</p>
 """
-
-
+ 
+ 
 # --- Rendu léger du texte de méthode ---------------------------------------
-
+ 
 def markdown_minimal(source: str) -> str:
     """Assez de Markdown pour un manuel de méthode, pas plus."""
     sortie, liste = [], None
@@ -511,10 +548,10 @@ def markdown_minimal(source: str) -> str:
     if liste:
         sortie.append(f"</{liste}>")
     return f'<div class="prose">{"".join(sortie)}</div>'
-
-
+ 
+ 
 # --- Exports ---------------------------------------------------------------
-
+ 
 def exporter(evenements: list[dict], vocab: dict, dossier: Path) -> None:
     (dossier / "corpus.json").write_text(
         json.dumps(
@@ -524,13 +561,13 @@ def exporter(evenements: list[dict], vocab: dict, dossier: Path) -> None:
         ),
         encoding="utf-8",
     )
-
+ 
     colonnes = [
         "evenement", "date_fait", "type_fait", "departement", "milieu",
         "article", "media", "publication", "signes", "position_une",
         "titre_initial", "titre_actuel", "revisions", "cadre", "codeurs", "accord",
     ] + vocab["codage"]["booleens"]
-
+ 
     with (dossier / "articles.csv").open("w", newline="", encoding="utf-8") as f:
         plume = csv.DictWriter(f, fieldnames=colonnes)
         plume.writeheader()
@@ -559,29 +596,29 @@ def exporter(evenements: list[dict], vocab: dict, dossier: Path) -> None:
                 for variable in vocab["codage"]["booleens"]:
                     ligne[variable] = codage.get(variable, "")
                 plume.writerow(ligne)
-
-
+ 
+ 
 # --- Construction ----------------------------------------------------------
-
+ 
 def main() -> int:
     vocab, medias, evenements = charger()
-
+ 
     if SORTIE.exists():
         shutil.rmtree(SORTIE)
     for sous in ("evenements", "medias", "donnees"):
         (SORTIE / sous).mkdir(parents=True)
-
+ 
     shutil.copy(RACINE / "gabarits" / "style.css", SORTIE / "style.css")
-
+ 
     (SORTIE / "index.html").write_text(
         page("Corpus", page_accueil(evenements, medias)), encoding="utf-8"
     )
-
+ 
     for evenement in evenements:
         (SORTIE / "evenements" / f"{evenement['id']}.html").write_text(
             page(evenement["id"], page_evenement(evenement, medias), 1), encoding="utf-8"
         )
-
+ 
     (SORTIE / "medias" / "index.html").write_text(
         page("Médias", page_medias(medias, evenements, vocab), 1), encoding="utf-8"
     )
@@ -589,21 +626,22 @@ def main() -> int:
         (SORTIE / "medias" / f"{media['id']}.html").write_text(
             page(media["nom"], page_media(media, evenements, vocab), 1), encoding="utf-8"
         )
-
+ 
     methode = (RACINE / "METHODE.md").read_text(encoding="utf-8")
     (SORTIE / "methode.html").write_text(
         page("Méthode", markdown_minimal(methode)), encoding="utf-8"
     )
-
+ 
     (SORTIE / "donnees" / "index.html").write_text(
         page("Données", page_donnees(evenements), 1), encoding="utf-8"
     )
     exporter(evenements, vocab, SORTIE / "donnees")
-
+ 
     pages = len(list(SORTIE.rglob("*.html")))
     print(f"Site construit : {pages} pages, {len(evenements)} événement(s) → {SORTIE}")
     return 0
-
-
+ 
+ 
 if __name__ == "__main__":
     sys.exit(main())
+ 

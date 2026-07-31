@@ -1,43 +1,290 @@
 contrat = 1
-
+ 
 # Le périmètre de suivi. Un média absent de ce fichier ne peut pas être
 # comptabilisé comme « n'ayant pas couvert » : on ne mesure une omission
 # que sur un périmètre déclaré à l'avance.
 #
-# Ajouter un média se fait par proposition de modification, et vaut
-# uniquement pour les événements postérieurs à `suivi_depuis`.
-
+# Champs :
+#   departements          absent = média national (couvre tout) ;
+#                         présent = média territorial, éligible seulement
+#                         pour les faits de ces départements.
+#   flux_complementaires  flux additionnels de DÉTECTION (éditions locales).
+#                         L'unité de mesure reste le média, jamais le flux.
+#   groupe                propriétaire, informatif, à vérifier à chaque ajout.
+#
+# Toute modification passe par proposition et ne vaut que pour l'avenir.
+ 
+# ---------------------------------------------------------------------
+# SECTION 1 — MÉDIAS D'EXEMPLE (fictifs)
+# À supprimer dans la même proposition que le premier événement réel,
+# avec les fichiers EVT-2026-0001 et EVT-2026-0002 qui les référencent.
+# ---------------------------------------------------------------------
+ 
 [[media]]
 id = "courrier-matin"
 nom = "Le Courrier du Matin"
 famille = "quotidien_national"
 suivi_depuis = "2026-01-01"
 flux = "https://exemple.invalid/courrier/rss"
-
+ 
 [[media]]
 id = "gazette-soir"
 nom = "La Gazette du Soir"
 famille = "quotidien_national"
 suivi_depuis = "2026-01-01"
 flux = "https://exemple.invalid/gazette/rss"
-
+ 
 [[media]]
 id = "depeche-regionale"
 nom = "La Dépêche Régionale"
 famille = "presse_regionale"
 suivi_depuis = "2026-01-01"
 flux = "https://exemple.invalid/regionale/rss"
-
+ 
 [[media]]
 id = "canal-info"
 nom = "Canal Info"
 famille = "chaine_information"
 suivi_depuis = "2026-01-01"
 flux = "https://exemple.invalid/canalinfo/rss"
-
+ 
 [[media]]
 id = "hebdo-national"
 nom = "L'Hebdomadaire"
 famille = "hebdomadaire"
 suivi_depuis = "2026-01-01"
 flux = "https://exemple.invalid/hebdo/rss"
+ 
+# ---------------------------------------------------------------------
+# SECTION 2 — PANEL NATIONAL
+# Un flux principal par média, au plus près du périmètre faits divers.
+# ---------------------------------------------------------------------
+ 
+[[media]]
+id = "le-monde"
+nom = "Le Monde"
+famille = "quotidien_national"
+groupe = "Groupe Le Monde"
+suivi_depuis = "2026-07-31"
+flux = "https://www.lemonde.fr/faits-divers/rss_full.xml"
+ 
+[[media]]
+id = "le-figaro"
+nom = "Le Figaro"
+famille = "quotidien_national"
+groupe = "Groupe Figaro (Dassault)"
+suivi_depuis = "2026-07-31"
+flux = "https://www.lefigaro.fr/rss/figaro_faits-divers.xml"
+ 
+[[media]]
+id = "liberation"
+nom = "Libération"
+famille = "quotidien_national"
+groupe = "Fonds de dotation Presse indépendante"
+suivi_depuis = "2026-07-31"
+flux = "https://www.liberation.fr/arc/outboundfeeds/rss-all/category/societe/?outputType=xml"
+ 
+[[media]]
+id = "le-parisien"
+nom = "Le Parisien"
+famille = "quotidien_national"
+groupe = "LVMH"
+suivi_depuis = "2026-07-31"
+flux = "https://feeds.leparisien.fr/leparisien/rss/faits-divers"
+ 
+[[media]]
+id = "franceinfo"
+nom = "franceinfo"
+famille = "service_public"
+groupe = "France Télévisions / Radio France"
+suivi_depuis = "2026-07-31"
+flux = "https://www.franceinfo.fr/faits-divers.rss"
+ 
+# BFMTV : un média, plusieurs flux de détection. Le flux national
+# police-justice + les éditions locales des villes visées. Un fait corse
+# repris par BFM compte pour BFMTV, quel que soit le flux qui l'a détecté.
+[[media]]
+id = "bfmtv"
+nom = "BFMTV"
+famille = "chaine_information"
+groupe = "RMC BFM (CMA CGM)"
+suivi_depuis = "2026-07-31"
+flux = "https://www.bfmtv.com/rss/police-justice/"
+flux_complementaires = [
+  "https://www.bfmtv.com/rss/bastia/",
+  "https://www.bfmtv.com/rss/ajaccio/",
+  "https://www.bfmtv.com/rss/paris/",
+  "https://www.bfmtv.com/rss/lyon/",
+  "https://www.bfmtv.com/rss/marseille/",
+  "https://www.bfmtv.com/rss/toulouse/",
+  "https://www.bfmtv.com/rss/cote-d-azur/",
+  "https://www.bfmtv.com/rss/grand-lille/",
+  "https://www.bfmtv.com/rss/montpellier/",
+  "https://www.bfmtv.com/rss/bordeaux/",
+]
+# NB : ajaccio vient de ta collecte Opera (non revérifié) ; tous les
+# autres sont confirmés actifs. Si un flux renvoie une erreur au premier
+# passage d'ingestion, retire-le par proposition.
+ 
+# CNews : flux repris de ta collecte, à tester dans le navigateur avant
+# le commit (tu dois voir du XML avec des <item>).
+[[media]]
+id = "cnews"
+nom = "CNews"
+famille = "chaine_information"
+groupe = "Canal+ (groupe Bolloré)"
+suivi_depuis = "2026-07-31"
+flux = "https://www.cnews.fr/rss/categorie/faits%20divers"
+# repli si mort :
+# flux = "https://news.google.com/rss/search?q=site:cnews.fr&hl=fr&gl=FR&ceid=FR:fr"
+ 
+[[media]]
+id = "france3-regions"
+nom = "France 3 Régions"
+famille = "service_public"
+groupe = "France Télévisions"
+suivi_depuis = "2026-07-31"
+flux = "https://france3-regions.franceinfo.fr/faits-divers/rss"
+# Ce flux national couvre les faits divers de toutes les antennes
+# régionales, Corse comprise.
+ 
+[[media]]
+id = "actu-fr"
+nom = "actu.fr"
+famille = "pure_player_local"
+groupe = "Publihebdos (Sipa Ouest-France)"
+suivi_depuis = "2026-07-31"
+flux = "https://actu.fr/rss.xml"
+flux_complementaires = [
+  "https://actu.fr/corse/rss.xml",
+]
+# D'autres éditions locales existent (actu.fr/<territoire>/rss.xml) :
+# à ajouter au fil de l'activation des villes, après test.
+ 
+# ---------------------------------------------------------------------
+# SECTION 3 — CORSE (territoire pilote)
+# ---------------------------------------------------------------------
+ 
+# Corse-Matin ne publie pas de flux RSS d'articles à ma connaissance ;
+# son relais Bluesky officiel, actif, en tient lieu pour la détection.
+# ATTENTION : les liens de ce flux pointent vers Bluesky, pas vers
+# corsematin.com — au rattachement d'un article, remplace l'URL par
+# celle de l'article sur corsematin.com et archive celle-ci.
+[[media]]
+id = "corse-matin"
+nom = "Corse-Matin"
+famille = "presse_regionale"
+groupe = "Groupe Nice-Matin"
+departements = ["2A", "2B"]
+suivi_depuis = "2026-07-31"
+flux = "https://bsky.app/profile/did:plc:3uv44ned22nr4fu3fmdvrezu/rss"
+ 
+# Autres pistes corses, à activer après avoir trouvé et testé leur flux
+# (annuaire : https://atlasflux.saynete.net, rubrique Corse > Presse) :
+#
+# [[media]]
+# id = "corse-net-infos"
+# nom = "Corse Net Infos"
+# famille = "pure_player_local"
+# groupe = "à renseigner"
+# departements = ["2A", "2B"]
+# suivi_depuis = "AAAA-MM-JJ"
+# flux = "https://..."
+#
+# Filet de détection agrégé (presse corse, plusieurs titres) — utile en
+# veille manuelle, mais PAS une entrée média (un agrégateur n'est pas
+# une unité de mesure) :
+#   http://flussi.annuda.saynete.net/corse_presse_rss.xml
+ 
+# ---------------------------------------------------------------------
+# SECTION 4 — PQR DES GRANDES VILLES, à activer ville par ville
+# Chaque bloc : trouver le flux sur https://atlasflux.saynete.net
+# (page dédiée au titre ou rubrique Régional), le tester, décommenter,
+# mettre suivi_depuis au jour de l'ajout. N'active une ville que quand
+# sa veille de sources primaires (parquets) est en place.
+# ---------------------------------------------------------------------
+ 
+# [[media]]
+# id = "la-provence"          # Marseille
+# nom = "La Provence"
+# famille = "presse_regionale"
+# groupe = "CMA CGM"
+# departements = ["13", "84"]
+# suivi_depuis = "AAAA-MM-JJ"
+# flux = "https://..."
+ 
+# [[media]]
+# id = "le-progres"           # Lyon
+# nom = "Le Progrès"
+# famille = "presse_regionale"
+# groupe = "EBRA (Crédit Mutuel)"
+# departements = ["69", "01", "42"]
+# suivi_depuis = "AAAA-MM-JJ"
+# flux = "https://..."
+ 
+# [[media]]
+# id = "la-depeche"           # Toulouse
+# nom = "La Dépêche du Midi"
+# famille = "presse_regionale"
+# groupe = "Groupe La Dépêche"
+# departements = ["31", "81", "82", "09", "32", "46", "65", "11"]
+# suivi_depuis = "AAAA-MM-JJ"
+# flux = "https://..."
+ 
+# [[media]]
+# id = "nice-matin"           # Nice
+# nom = "Nice-Matin"
+# famille = "presse_regionale"
+# groupe = "Groupe Nice-Matin"
+# departements = ["06", "83"]
+# suivi_depuis = "AAAA-MM-JJ"
+# flux = "https://..."
+ 
+# [[media]]
+# id = "midi-libre"           # Montpellier
+# nom = "Midi Libre"
+# famille = "presse_regionale"
+# groupe = "Groupe La Dépêche"
+# departements = ["34", "30", "48", "12", "66", "11"]
+# suivi_depuis = "AAAA-MM-JJ"
+# flux = "https://..."
+ 
+# [[media]]
+# id = "sud-ouest"            # Bordeaux
+# nom = "Sud Ouest"
+# famille = "presse_regionale"
+# groupe = "Groupe Sud Ouest"
+# departements = ["33", "17", "24", "40", "47", "64"]
+# suivi_depuis = "AAAA-MM-JJ"
+# flux = "https://..."
+ 
+# [[media]]
+# id = "voix-du-nord"         # Lille
+# nom = "La Voix du Nord"
+# famille = "presse_regionale"
+# groupe = "Rossel"
+# departements = ["59", "62"]
+# suivi_depuis = "AAAA-MM-JJ"
+# flux = "https://..."
+ 
+# [[media]]
+# id = "dna"                  # Strasbourg
+# nom = "Dernières Nouvelles d'Alsace"
+# famille = "presse_regionale"
+# groupe = "EBRA (Crédit Mutuel)"
+# departements = ["67", "68"]
+# suivi_depuis = "AAAA-MM-JJ"
+# flux = "https://..."
+ 
+# [[media]]
+# id = "ouest-france"         # Nantes / Rennes
+# nom = "Ouest-France"
+# famille = "presse_regionale"
+# groupe = "Sipa Ouest-France"
+# departements = ["44", "35", "49", "53", "56", "22", "29", "72", "85", "14", "50", "61"]
+# suivi_depuis = "AAAA-MM-JJ"
+# flux = "https://..."
+ 
+# Paris / Île-de-France : déjà couvert par Le Parisien (entrée nationale,
+# section 2), qui est de fait la PQR francilienne.
+ 
