@@ -1,0 +1,1405 @@
+{
+  "genere": "20260731T082727Z",
+  "candidats": [
+    {
+      "media": "le-monde",
+      "url": "https://www.lemonde.fr/outre-mer/article/2026/07/31/guadeloupe-un-batiment-en-travaux-s-effondre-a-pointe-a-pitre-tuant-un-ouvrier_6737078_1840826.html",
+      "titre_releve": "Guadeloupe : un bâtiment en travaux s’effondre à Pointe-à-Pitre, tuant un ouvrier",
+      "publication_flux": "Fri, 31 Jul 2026 04:11:10 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-monde",
+      "url": "https://www.lemonde.fr/international/article/2026/07/31/etats-unis-un-pere-condamne-a-15-ans-de-prison-pour-avoir-offert-a-son-fils-l-arme-d-une-tuerie-scolaire_6737072_3210.html",
+      "titre_releve": "Etats-Unis : un père condamné à quinze ans de prison pour avoir offert à son fils l’arme d’une tuerie scolaire",
+      "publication_flux": "Fri, 31 Jul 2026 00:45:43 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-monde",
+      "url": "https://www.lemonde.fr/societe/article/2026/07/29/un-animateur-periscolaire-du-var-mis-en-examen-pour-viols-et-agressions-sexuelles-sur-trois-enfants_6736373_3224.html",
+      "titre_releve": "Un animateur périscolaire du Var mis en examen pour viols et agressions sexuelles sur trois enfants",
+      "publication_flux": "Wed, 29 Jul 2026 15:18:38 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-monde",
+      "url": "https://www.lemonde.fr/societe/article/2026/07/28/attaque-au-couteau-a-paris-la-garde-a-vue-du-suspect-a-ete-levee-pour-raison-psychiatrique_6735400_3224.html",
+      "titre_releve": "Attaque au couteau à Paris : la garde à vue du suspect a été levée pour raison psychiatrique",
+      "publication_flux": "Tue, 28 Jul 2026 19:13:56 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-monde",
+      "url": "https://www.lemonde.fr/culture/article/2026/07/28/un-joyau-celte-unique-derobe-dans-un-musee-en-cote-d-or-un-cataclysme-pour-les-archeologues_6734602_3246.html",
+      "titre_releve": "Un torque en or vieux de plus de 2 500 ans dérobé dans un musée en Côte-d’Or, un cataclysme pour les archéologues",
+      "publication_flux": "Tue, 28 Jul 2026 06:00:39 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-monde",
+      "url": "https://www.lemonde.fr/societe/article/2026/07/28/hauts-de-seine-des-rouleaux-de-la-torah-d-une-grande-valeur-derobes-dans-la-synagogue-de-levallois-perret_6734293_3224.html",
+      "titre_releve": "Hauts-de-Seine : des rouleaux de la Torah d’une grande valeur dérobés dans la synagogue de Levallois-Perret",
+      "publication_flux": "Tue, 28 Jul 2026 01:38:34 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-monde",
+      "url": "https://www.lemonde.fr/societe/article/2026/07/26/soupcons-de-projet-terroriste-a-sarcelles-apres-la-decouverte-d-armes-dans-une-voiture-six-hommes-mis-en-examen-et-ecroues_6732623_3224.html",
+      "titre_releve": "Soupçons de projet terroriste à Sarcelles après la découverte d’armes dans une voiture : six hommes mis en examen",
+      "publication_flux": "Sun, 26 Jul 2026 04:20:00 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-monde",
+      "url": "https://www.lemonde.fr/societe/article/2026/07/24/coup-de-theatre-dans-l-affaire-du-meurtre-de-thomas-perotto-a-crepol-la-justice-retient-in-extremis-la-circonstance-aggravante-de-racisme_6731528_3224.html",
+      "titre_releve": "Dans l’affaire du meurtre de Thomas Perotto à Crépol, la justice retient in extremis la circonstance aggravante de racisme",
+      "publication_flux": "Fri, 24 Jul 2026 18:14:35 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-monde",
+      "url": "https://www.lemonde.fr/international/article/2026/07/24/mort-de-daniel-siad-pas-de-traces-de-violences-recentes-selon-l-autopsie_6731494_3210.html",
+      "titre_releve": "Mort de Daniel Siad : pas de « traces de violences récentes pouvant être en lien avec le décès » selon l’autopsie",
+      "publication_flux": "Fri, 24 Jul 2026 13:27:49 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-monde",
+      "url": "https://www.lemonde.fr/societe/article/2026/07/23/deux-assistantes-maternelles-d-une-creche-illegale-jugees-apres-avoir-cache-12-enfants-dans-une-voiture-lors-d-un-controle-dans-l-essonne_6730383_3224.html",
+      "titre_releve": "Deux assistantes maternelles seront jugées pour avoir entassé 12 enfants dans une voiture au sous-sol d’une crèche illégale",
+      "publication_flux": "Thu, 23 Jul 2026 06:56:33 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-monde",
+      "url": "https://www.lemonde.fr/societe/article/2026/07/22/affaire-epstein-daniel-siad-rabatteur-presume-du-pedocriminel-americain-retrouve-mort-chez-lui-pres-de-paris_6730013_3224.html",
+      "titre_releve": "Affaire Epstein : Daniel Siad, rabatteur présumé du pédocriminel américain, retrouvé mort chez lui, près de Paris",
+      "publication_flux": "Wed, 22 Jul 2026 11:22:24 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-monde",
+      "url": "https://www.lemonde.fr/societe/article/2026/07/21/deux-pompiers-meurent-en-tentant-d-eteindre-un-incendie-dans-un-batiment-pres-de-bordeaux-annonce-laurent-nunez_6728856_3224.html",
+      "titre_releve": "Incendie à Mérignac, près de Bordeaux : deux pompiers sont morts, leur camion « piégé » par les flammes",
+      "publication_flux": "Tue, 21 Jul 2026 16:35:41 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-monde",
+      "url": "https://www.lemonde.fr/societe/article/2026/07/20/affaire-jubillar-apres-la-decouverte-des-ossements-de-delphine-aussaguel-dans-un-champ-du-tarn-incertitudes-sur-le-proces-en-appel_6726566_3224.html",
+      "titre_releve": "Affaire Jubillar : après la découverte des ossements de Delphine Aussaguel dans un champ du Tarn, incertitudes sur le procès en appel",
+      "publication_flux": "Mon, 20 Jul 2026 05:00:09 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-monde",
+      "url": "https://www.lemonde.fr/idees/article/2026/07/18/le-choix-politique-qui-a-mene-a-la-mort-de-lyhanna-est-celui-de-placer-l-argent-public-ailleurs-que-dans-les-services-publics_6724570_3232.html",
+      "titre_releve": "« Le choix politique qui a mené à la mort de Lyhanna est celui de placer l’argent public ailleurs que dans les services publics »",
+      "publication_flux": "Sat, 18 Jul 2026 10:00:19 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-monde",
+      "url": "https://www.lemonde.fr/societe/article/2026/07/18/imprescriptibilite-des-crimes-sur-mineurs-refus-de-la-perpetuite-pour-les-viols-seriels-les-deputes-modifient-le-projet-de-loi-de-protection-des-enfants_6724395_3224.html",
+      "titre_releve": "Imprescriptibilité des crimes sur mineurs, refus de la perpétuité pour les viols sériels… Les députés modifient le projet de loi de protection des enfants",
+      "publication_flux": "Sat, 18 Jul 2026 07:40:24 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-monde",
+      "url": "https://www.lemonde.fr/societe/article/2026/07/17/au-proces-athanor-17-des-22-accuses-condamnes-les-peines-les-plus-lourdes-pour-les-deux-fondateurs-et-pour-un-executant-de-l-officine-criminelle_6724239_3224.html",
+      "titre_releve": "Au procès Athanor, 17 des 22 accusés condamnés, les peines les plus lourdes pour les deux fondateurs et pour un exécutant de l’officine criminelle",
+      "publication_flux": "Fri, 17 Jul 2026 21:28:18 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-monde",
+      "url": "https://www.lemonde.fr/societe/article/2026/07/16/meurtre-d-une-surveillante-en-haute-marne-en-2025-un-adolescent-de-15-ans-condamne-a-dix-huit-ans-de-prison_6723840_3224.html",
+      "titre_releve": "Meurtre d’une surveillante en Haute-Marne en 2025 : un adolescent de 15 ans condamné à dix-huit ans de prison",
+      "publication_flux": "Thu, 16 Jul 2026 20:07:39 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-monde",
+      "url": "https://www.lemonde.fr/societe/article/2026/07/16/mort-de-lyhanna-delais-manifestement-excessifs-et-manque-de-moyens-d-enquete-releve-un-deuxieme-rapport_6723807_3224.html",
+      "titre_releve": "Mort de Lyhanna : un deuxième rapport pointe des « délais manifestement excessifs » et « un manque de moyens » à disposition des enquêteurs",
+      "publication_flux": "Thu, 16 Jul 2026 15:31:46 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-monde",
+      "url": "https://www.lemonde.fr/societe/article/2026/07/15/mort-de-lyhanna-jerome-barella-mis-en-examen-pour-meurtre-et-viol-sur-mineure-de-moins-de-15-ans_6723611_3224.html",
+      "titre_releve": "Jérôme Barella, le suspect dans la mort de Lyhanna, a été mis en examen pour meurtre et viol sur mineure de moins de 15 ans",
+      "publication_flux": "Wed, 15 Jul 2026 20:39:17 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-monde",
+      "url": "https://www.lemonde.fr/societe/article/2026/07/15/pedocriminalite-apres-la-mort-de-lyhanna-pres-d-un-millier-de-dossiers-ont-ete-identifies-comme-prioritaires-annonce-gerald-darmanin_6723571_3224.html",
+      "titre_releve": "Pédocriminalité : après la mort de Lyhanna, près d’un millier de dossiers ont été identifiés comme « prioritaires », annonce Gérald Darmanin",
+      "publication_flux": "Wed, 15 Jul 2026 16:20:55 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/mort-de-quentin-deranque-deux-des-activistes-d-ultragauche-mis-en-examen-deposent-plainte-contre-les-militants-identitaires-pour-des-violences-20260728",
+      "titre_releve": "Mort de Quentin Deranque : deux des activistes d’ultragauche mis en examen déposent plainte contre les militants identitaires pour des «violences»",
+      "publication_flux": "Tue, 28 Jul 2026 16:55:00 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/essonne-12-enfants-d-une-creche-retrouves-parques-dans-une-voiture-deux-assistantes-maternelles-interpellees-20260722",
+      "titre_releve": "Essonne : 12 enfants d’une crèche retrouvés parqués dans une voiture, deux assistantes maternelles interpellées",
+      "publication_flux": "Wed, 22 Jul 2026 21:30:01 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/incendies-en-creuse-un-pyromane-de-28-ans-mis-en-examen-pour-trois-departs-de-feu-20260716",
+      "titre_releve": "Incendies en Creuse : un pyromane de 28 ans mis en examen pour trois départs de feu",
+      "publication_flux": "Thu, 30 Jul 2026 11:26:05 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/coupe-du-monde-apres-les-victoires-de-la-france-et-du-maroc-une-nuit-inedite-ou-la-fete-l-a-emporte-sur-les-debordements-20260705",
+      "titre_releve": "Coupe du monde : après les victoires de la France et du Maroc, une nuit «inédite» où la fête l’a emporté sur les débordements",
+      "publication_flux": "Sun, 05 Jul 2026 19:18:22 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/mort-de-louis-a-narbonne-c-est-plus-mon-fils-je-le-bannis-completement-temoigne-la-mere-d-un-des-meurtriers-presumes-20260701",
+      "titre_releve": "Mort de Louis à Narbonne : «C’est plus mon fils, je le bannis complètement», témoigne la mère d’un des meurtriers présumés",
+      "publication_flux": "Wed, 01 Jul 2026 15:10:16 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/noyade-dans-le-canal-saint-martin-la-victime-est-un-ouvrier-de-21-ans-parti-se-baigner-en-laissant-ses-affaires-a-ses-amis-20260627",
+      "titre_releve": "Noyade dans le canal Saint-Martin : la victime est un ouvrier de 21 ans parti se baigner en laissant ses affaires à ses amis",
+      "publication_flux": "Mon, 29 Jun 2026 09:41:39 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/tirs-de-mortiers-piqures-baignades-dangereuses-a-paris-la-police-sur-le-qui-vive-pour-la-fete-de-la-musique-20260621",
+      "titre_releve": "Tirs de mortiers, piqûres, baignades dangereuses… À Paris, la police sur le qui-vive pour la Fête de la Musique",
+      "publication_flux": "Mon, 22 Jun 2026 10:28:38 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/affaire-lyhanna-ce-signalement-d-une-collegienne-de-l-ase-visant-jerome-barella-trois-mois-avant-le-meurtre-20260615",
+      "titre_releve": "Affaire Lyhanna : ce signalement d’une collégienne de l’ASE visant Jérôme Barella trois mois avant le meurtre",
+      "publication_flux": "Mon, 15 Jun 2026 18:50:23 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/affaire-pilarski-christophe-ellul-condamne-a-de-la-prison-avec-sursis-le-pitbull-curtis-sera-euthanasie-20260611",
+      "titre_releve": "Affaire Pilarski : Christophe Ellul condamné à quatre ans de prison avec sursis, le pitbull Curtis sera euthanasié",
+      "publication_flux": "Thu, 11 Jun 2026 16:23:20 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/saint-etienne-une-paroissienne-de-70-ans-violemment-agressee-pour-son-collier-dans-la-cathedrale-saint-charles-20260611",
+      "titre_releve": "Saint-Étienne : une paroissienne de 70 ans violemment agressée pour son collier dans la cathédrale Saint-Charles",
+      "publication_flux": "Fri, 12 Jun 2026 11:25:46 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/affaire-lyhanna-le-frere-du-suspect-mis-en-examen-pour-viol-sur-deux-ex-compagnes-20260610",
+      "titre_releve": "Affaire Lyhanna : le frère du suspect mis en examen pour viol sur deux ex-compagnes",
+      "publication_flux": "Thu, 11 Jun 2026 10:56:49 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/politique/mort-de-lyhanna-on-ne-repond-pas-a-un-drame-par-des-cris-declare-emmanuel-macron-qui-veut-agir-sans-precipitation-ni-demagogie-20260610",
+      "titre_releve": "Mort de Lyhanna : «On ne répond pas à un drame par des cris», déclare Emmanuel Macron, qui veut agir sans «précipitation» ni «démagogie»",
+      "publication_flux": "Fri, 12 Jun 2026 10:49:42 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/le-militant-identitaire-jean-eudes-gannat-condamne-a-trois-mois-de-prison-avec-sursis-pour-ses-propos-visant-des-refugies-afghans-20260610",
+      "titre_releve": "Le militant identitaire Jean-Eudes Gannat condamné à trois mois de prison avec sursis pour ses propos visant des réfugiés afghans",
+      "publication_flux": "Wed, 10 Jun 2026 15:48:17 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/affaire-patrick-bruel-c-est-un-choc-estime-l-une-des-avocates-des-victimes-apres-les-requisitions-du-parquet-20260610",
+      "titre_releve": "Affaire Patrick Bruel : «C’est un choc», estime l’une des avocates des victimes après les réquisitions du parquet",
+      "publication_flux": "Wed, 10 Jun 2026 20:21:35 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/ce-qui-nous-a-ete-raconte-ne-ressemble-pas-du-tout-a-o-neil-mystere-apres-la-disparition-d-un-francais-de-24-ans-sur-une-plage-au-japon-20260607",
+      "titre_releve": "«Ce qui nous a été raconté ne ressemble pas du tout à O’Neil» : mystère après la disparition d’un Français de 24 ans sur une plage au Japon",
+      "publication_flux": "Tue, 09 Jun 2026 09:41:07 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/le-rappeur-booba-condamne-a-3-mois-de-prison-avec-sursis-pour-cyberharcelement-et-injures-20260602",
+      "titre_releve": "Le rappeur Booba condamné à 3 mois de prison avec sursis pour cyberharcèlement et injures",
+      "publication_flux": "Tue, 02 Jun 2026 15:16:49 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/villeneuve-la-garenne-le-prefet-des-hauts-de-seine-ordonne-la-fermeture-d-une-association-sportive-soupconnee-de-separatisme-islamiste-20260528",
+      "titre_releve": "Villeneuve-la-Garenne : le préfet des Hauts-de-Seine ordonne la fermeture d’une association sportive soupçonnée de séparatisme islamiste",
+      "publication_flux": "Thu, 28 May 2026 14:27:24 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/animaux/alsace-une-femme-condamnee-a-trois-mois-de-prison-avec-sursis-pour-avoir-battu-a-mort-un-lynx-20260520",
+      "titre_releve": "Alsace : une femme condamnée à trois mois de prison avec sursis pour avoir battu à mort un lynx",
+      "publication_flux": "Wed, 20 May 2026 17:35:58 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/t-as-jamais-embrasse-un-garcon-un-ancien-responsable-sportif-piege-en-direct-par-un-chasseur-de-pedocriminels-grace-a-une-ia-20260513",
+      "titre_releve": "Un ancien responsable sportif mis en examen et incarcéré après avoir été piégé par un chasseur de pédocriminels grâce à une IA",
+      "publication_flux": "Thu, 14 May 2026 19:42:09 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/cryptorapt-cinq-hommes-dont-un-membre-presume-de-la-dz-mafia-ecroues-apres-la-sequestration-d-une-mere-de-famille-pres-de-toulouse-20260511",
+      "titre_releve": "Cryptorapt : cinq hommes, dont un membre présumé de la DZ mafia, écroués après la séquestration d’une mère de famille près de Toulouse",
+      "publication_flux": "Mon, 11 May 2026 11:53:22 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/chloe-14-ans-tuee-dans-l-aisne-le-principal-suspect-mis-en-examen-pour-assassinat-et-ecroue-20260508",
+      "titre_releve": "Chloé, 14 ans, tuée dans l’Aisne : le principal suspect mis en examen pour «assassinat» et «viols», placé en détention provisoire",
+      "publication_flux": "Fri, 08 May 2026 23:40:02 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/paris-deux-militants-pro-israeliens-juges-pour-avoir-participe-a-une-rixe-apres-les-debordements-a-la-philharmonie-20260507",
+      "titre_releve": "Paris : deux militants pro-israéliens jugés pour avoir participé à une rixe après les débordements à la Philharmonie",
+      "publication_flux": "Thu, 07 May 2026 15:48:17 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/vols-de-donnees-un-phenomene-massif-commis-par-des-pirates-de-plus-en-plus-jeunes-20260428",
+      "titre_releve": "Vols de données : un phénomène massif commis par des pirates de plus en plus jeunes",
+      "publication_flux": "Tue, 28 Apr 2026 15:58:40 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/paris-deux-hommes-interpelles-apres-l-agression-d-un-policier-hors-service-20260427",
+      "titre_releve": "Paris : deux hommes interpellés après l’agression d’un policier hors service",
+      "publication_flux": "Mon, 27 Apr 2026 20:46:36 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/charente-maritime-un-suspect-interpelle-pour-la-sequestration-d-un-couple-et-le-vol-de-8-millions-d-euros-en-cryptomonnaie-20260422",
+      "titre_releve": "Charente-Maritime : un suspect interpellé pour la séquestration d'un couple et le vol de 8 millions d’euros en cryptomonnaie",
+      "publication_flux": "Wed, 22 Apr 2026 15:46:10 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/brest-deux-blesses-par-balles-dont-une-adolescente-lors-d-un-reglement-de-compte-une-enquete-ouverte-20260420",
+      "titre_releve": "Brest : deux blessés par balles dont une adolescente lors d’un règlement de compte, une enquête ouverte",
+      "publication_flux": "Tue, 21 Apr 2026 12:07:53 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/l-argentier-de-l-elysee-qui-volait-la-vaisselle-presidentielle-condamne-a-un-an-de-prison-ferme-20260416",
+      "titre_releve": "L’argentier de l’Élysée qui volait la vaisselle présidentielle condamné à un an de prison ferme",
+      "publication_flux": "Thu, 16 Apr 2026 15:33:35 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/actualite-france/enfant-sequestre-dans-une-camionnette-en-alsace-comment-a-t-il-pu-passer-sous-les-radars-20260413",
+      "titre_releve": "Enfant séquestré dans une camionnette en Alsace : comment a-t-il pu passer sous les radars ?",
+      "publication_flux": "Mon, 13 Apr 2026 21:45:48 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/animaux/pas-de-calais-un-garcon-de-9-ans-sauve-sa-petite-soeur-et-son-chien-dans-un-incendie-20260413",
+      "titre_releve": "Pas-de-Calais : un garçon de 9 ans sauve sa petite sœur et son chien d’un incendie",
+      "publication_flux": "Mon, 13 Apr 2026 19:07:30 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/soeurs-jumelle-tuees-suspect-decede-et-zones-d-ombre-ce-que-l-on-sait-du-double-feminicide-dans-la-vienne-20260413",
+      "titre_releve": "Sœurs jumelles tuées, suspect décédé et zones d’ombre : ce que l’on sait du double féminicide dans la Vienne",
+      "publication_flux": "Mon, 13 Apr 2026 16:01:10 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/paris-un-homme-tente-de-se-suicider-par-balles-devant-le-commissariat-du-14e-arrondissement-20260409",
+      "titre_releve": "Paris : un homme tente de se suicider par balles devant le commissariat du 14e arrondissement",
+      "publication_flux": "Thu, 09 Apr 2026 09:56:42 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/val-de-marne-un-lyceen-soupconne-d-avoir-voulu-commettre-une-tuerie-de-masse-interpellee-a-villejuif-20260409",
+      "titre_releve": "Val-de-Marne : un lycéen soupçonné d’avoir voulu commettre une tuerie de masse interpellé à Villejuif",
+      "publication_flux": "Thu, 09 Apr 2026 10:26:51 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/paris-trois-delinquants-condamnes-pour-une-tentative-d-enlevement-sur-fond-de-cryptomonnaie-20260402",
+      "titre_releve": "Paris : trois délinquants condamnés pour une tentative d’enlèvement sur fond de cryptomonnaie",
+      "publication_flux": "Thu, 02 Apr 2026 19:54:33 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/accuse-de-violences-conjugales-stephane-plaza-sera-juge-en-appel-du-26-juin-au-1er-juillet-20260330",
+      "titre_releve": "Accusé de «violences conjugales», Stéphane Plaza sera jugé en appel du 26 juin au 1er juillet",
+      "publication_flux": "Tue, 31 Mar 2026 09:09:01 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/maman-ils-m-ont-mis-des-jouets-a-l-interieur-la-descente-aux-enfers-d-une-famille-scolarisee-a-saint-dominique-20260330",
+      "titre_releve": "«Maman, ils m’ont mis des jouets à l’intérieur» : la descente aux enfers d’une famille scolarisée dans une maternelle dans le VIIe arrondissement de Paris",
+      "publication_flux": "Mon, 30 Mar 2026 22:26:25 +0200",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/nice/nice-un-homme-se-suicide-apres-un-refus-d-obtemperer-20260326",
+      "titre_releve": "Nice : un homme se suicide après un refus d’obtempérer",
+      "publication_flux": "Thu, 26 Mar 2026 16:33:04 +0100",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/proces-pour-viols-tariq-ramadan-hospitalise-en-psychiatrie-l-audience-se-poursuit-toujours-en-son-absence-20260324",
+      "titre_releve": "Procès pour viols : Tariq Ramadan hospitalisé en psychiatrie, l’audience se poursuit toujours en son absence",
+      "publication_flux": "Tue, 24 Mar 2026 12:04:52 +0100",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/j-ai-profondement-evolue-condamne-pour-violences-conjugales-le-candidat-lfi-a-la-mairie-d-argenteuil-lache-par-le-ps-et-les-verts-20260319",
+      "titre_releve": "«J’ai profondément évolué» : condamné pour violences conjugales, le candidat LFI à la mairie d’Argenteuil lâché par le PS et les Verts",
+      "publication_flux": "Thu, 19 Mar 2026 19:20:59 +0100",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/autoroute-a43-une-voiture-en-feu-circule-sans-passager-sur-3-kilometres-20260306",
+      "titre_releve": "Autoroute A43 : une voiture en feu circule sans passager sur 3 kilomètres",
+      "publication_flux": "Fri, 06 Mar 2026 19:35:59 +0100",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/garde-a-vue-en-cours-profil-du-suspect-etat-de-la-victime-ce-que-l-on-sait-de-l-agression-au-couteau-dans-un-college-de-la-rochelle-20260305",
+      "titre_releve": "«Idées extrémistes et violentes», envie de «vengeance» : ce que l’on sait de l’adolescent qui a poignardé un élève dans un collège de La Rochelle",
+      "publication_flux": "Thu, 05 Mar 2026 12:28:08 +0100",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/ce-qui-a-cause-la-collision-avec-le-tram-ce-sont-les-violences-onze-et-deux-ans-et-demi-de-prison-requis-contre-deux-des-agresseurs-de-jeremie-cohen-20260220",
+      "titre_releve": "«Ce qui a causé la collision avec le tram, ce sont les violences»: le principal agresseur de Jérémie Cohen condamné à 10 ans de réclusion criminelle",
+      "publication_flux": "Fri, 20 Feb 2026 20:20:08 +0100",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/l-agresseur-d-un-enfant-de-14-ans-dans-un-foyer-de-l-ase-dans-la-marne-place-sous-mesure-educative-20260211",
+      "titre_releve": "L’agresseur d’un enfant de 14 ans dans un foyer de l’ASE dans la Marne placé sous mesure éducative",
+      "publication_flux": "Thu, 12 Feb 2026 11:39:39 +0100",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/preserver-les-enfants-serenite-des-debats-et-mediatisation-accuse-de-violences-conjugales-le-rappeur-doums-juge-a-huis-clos-20260202",
+      "titre_releve": "Accusé de violences conjugales, le rappeur Doums condamné à huit mois de prison avec sursis",
+      "publication_flux": "Tue, 03 Feb 2026 13:35:23 +0100",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/sportif-brillant-eleve-qui-etait-alexis-la-41e-victime-decedee-dans-l-incendie-de-crans-montana-20260202",
+      "titre_releve": "Sportif, brillant élève... Qui était Alexis, la 41e victime décédée dans l’incendie de Crans-Montana ?",
+      "publication_flux": "Mon, 02 Feb 2026 12:54:00 +0100",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/affaire-de-la-voyante-l-ancien-maire-d-agde-gilles-d-ettore-retourne-en-prison-20260122",
+      "titre_releve": "Affaire de la voyante : l’ancien maire d’Agde Gilles d’Ettore retourne en prison",
+      "publication_flux": "Thu, 22 Jan 2026 17:11:15 +0100",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/loire-atlantique-un-animateur-periscolaire-condamne-a-6-ans-de-prison-pour-agressions-sexuelles-sur-12-enfants-20260122",
+      "titre_releve": "Loire-Atlantique : un animateur périscolaire condamné à 6 ans de prison pour agressions sexuelles sur 12 enfants",
+      "publication_flux": "Thu, 22 Jan 2026 15:02:07 +0100",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/rennes-un-detenu-juge-ce-jeudi-pour-son-evasion-de-prison-lors-d-une-sortie-pedagogique-20260122",
+      "titre_releve": "Rennes : un détenu jugé ce jeudi pour son évasion de prison lors d’une sortie pédagogique",
+      "publication_flux": "Thu, 22 Jan 2026 09:28:37 +0100",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/mort-d-un-homme-en-garde-a-vue-a-paris-l-autopsie-revele-une-fracture-au-niveau-du-cou-et-plusieurs-lesions-20260120",
+      "titre_releve": "Mort d’un homme en garde à vue à Paris : l’autopsie révèle une fracture au niveau du cou et plusieurs lésions",
+      "publication_flux": "Tue, 20 Jan 2026 15:54:27 +0100",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/cassez-vous-de-la-plusieurs-journalistes-agresses-et-menaces-par-des-proches-des-gerants-du-constellation-a-crans-montana-20260108",
+      "titre_releve": "«Cassez-vous de là» : plusieurs journalistes agressés et menacés par des proches des gérants du Constellation à Crans-Montana",
+      "publication_flux": "Fri, 09 Jan 2026 16:31:12 +0100",
+      "evenement": null
+    },
+    {
+      "media": "le-figaro",
+      "url": "https://www.lefigaro.fr/faits-divers/la-journaliste-qui-a-porte-plainte-pour-viol-contre-le-rappeur-lomepal-elle-meme-accusee-d-avoir-encourage-le-viol-d-une-de-ses-amies-20260108",
+      "titre_releve": "La journaliste qui avait révélé les accusations de viol contre le rappeur Lomepal elle-même accusée d’avoir encouragé le viol d’une de ses amies",
+      "publication_flux": "Fri, 09 Jan 2026 18:11:14 +0100",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/police-justice/annecy-le-parquet-ouvre-une-enquete-pour-viol-apres-une-plainte-contre-un-elu-municipal-20260731_U6XT273KX5AFVGCBFASQEPGQSY/",
+      "titre_releve": "Annecy : le parquet ouvre une enquête pour viol après une plainte contre un élu municipal",
+      "publication_flux": "Fri, 31 Jul 2026 08:16:38 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/police-justice/bebes-retrouves-morts-a-orange-la-mere-presentee-a-un-juge-en-vue-de-sa-mise-en-examen-pour-meurtre-son-conjoint-libere-20260731_IZ2KTI7IKRHCVKCEXSWV2C4AHM/",
+      "titre_releve": "Bébés retrouvés morts à Orange : la mère présentée à un juge en vue de sa mise en examen pour «meurtre», son conjoint libéré",
+      "publication_flux": "Fri, 31 Jul 2026 08:16:28 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/police-justice/crime-au-manoir-le-vieil-homme-lobsession-dune-vie-et-le-coup-de-fusil-20260731_DGQWZF4SQJGMLMR6KHUQHKGG6I/",
+      "titre_releve": "Crime au manoir : le vieil homme, l’obsession d’une vie et le coup de fusil",
+      "publication_flux": "Fri, 31 Jul 2026 08:00:00 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/familles/initiative-locale-pour-la-natalite-150-euros-de-prime-a-la-naissance-pas-le-jackpot-mais-un-bon-symbole-20260730_JN5RRRQDENHZPEKPBHPREEYDAQ/",
+      "titre_releve": "Initiative locale pour la natalité : 150 euros de prime à la naissance, pas le jackpot, mais un bon symbole",
+      "publication_flux": "Thu, 30 Jul 2026 19:50:00 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/idees-et-debats/editorial/suicide-de-joris-laurencin-en-isere-un-drame-qui-sinscrit-dans-un-racisme-datmosphere-20260730_5LHSWNC33RHDJPALPESMPMDGZA/",
+      "titre_releve": "Suicide de Joris Laurencin en Isère: un drame qui s’inscrit dans un racisme d’atmosphère",
+      "publication_flux": "Thu, 30 Jul 2026 18:19:22 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/droits-des-femmes/dereglement-climatique-un-accelerateur-invisible-des-violences-de-genre-20260730_ABMPDJUTSFGHPL6VA4UTNNF56I/",
+      "titre_releve": "Dérèglement climatique : un «accélérateur» invisible des violences de genre",
+      "publication_flux": "Thu, 30 Jul 2026 16:54:58 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/police-justice/taxi-boat-quatre-personnes-retrouvees-mortes-dans-le-nord-et-le-pas-de-calais-apres-avoir-essaye-de-traverser-la-manche-20260730_VVWGTKED4BBWPLI6P5SUONCDEQ/",
+      "titre_releve": "«Taxi-boat» : quatre personnes retrouvées mortes dans le Nord et le Pas-de-Calais après avoir essayé de traverser la Manche",
+      "publication_flux": "Thu, 30 Jul 2026 16:22:24 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/international/qui-se-cache-derriere-ate-chuet-le-youtubeur-ex-pilote-de-larmee-francaise-mis-en-examen-pour-intelligence-avec-la-chine-20260730_2R5UQUMBJBAQ7JUXYOPIPCOBQY/",
+      "titre_releve": "Qui se cache derrière «Até Chuet» le youtubeur, ex-pilote de l’armée française mis en examen pour intelligence avec la Chine",
+      "publication_flux": "Thu, 30 Jul 2026 16:09:43 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/plus/speciaux-cahier-ete/les-tunisiens-joyeux-de-couronnes-a-paris-on-joue-aux-cartes-on-sengueule-on-rigole-20260730_SGXAZPF2CJFMBBRI7LQL4ULEFE/",
+      "titre_releve": "Les Tunisiens, joyeux de Couronnes à Paris : «On joue aux cartes, on s’engueule, on rigole»",
+      "publication_flux": "Thu, 30 Jul 2026 16:00:00 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/sante/fleau-des-injections-esthetiques-illegales-il-y-a-deja-eu-deux-morts-en-france-et-il-y-en-aura-dautres-20260730_RLWOTDU3KVC3RGQK7EPLMRGUME/",
+      "titre_releve": "Fléau des injections esthétiques illégales : «Il y a déjà eu deux morts en France et il y en aura d’autres»",
+      "publication_flux": "Thu, 30 Jul 2026 15:28:01 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/sante/toujours-moins-de-bebes-en-france-en-2026-pour-avoir-un-enfant-il-faut-etre-capable-de-se-projeter-20260730_5JL7GTJQ4FBNNGXONCZ7JJWYAE/",
+      "titre_releve": "Toujours moins de bébés en France en 2026 : «Pour avoir un enfant, il faut être capable de se projeter»",
+      "publication_flux": "Thu, 30 Jul 2026 14:23:21 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/police-justice/des-menaces-circulent-il-ne-faut-pas-parler-apres-le-suicide-de-joris-laurencin-une-commune-du-nord-isere-tetanisee-par-les-accusations-de-racisme-20260730_K5SEH6W2GBDI5P23EBIIEPDA4A/",
+      "titre_releve": "«Des menaces circulent, il ne faut pas parler» : après le suicide de Joris Laurencin, une commune du Nord-Isère tétanisée par les accusations de racisme",
+      "publication_flux": "Thu, 30 Jul 2026 13:28:00 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/police-justice/trois-francais-tues-en-afrique-du-sud-lex-mari-de-lune-des-victimes-arrete-au-luxembourg-20260730_IRTIWKL2TFDLXLDO5U5SBKRZDE/",
+      "titre_releve": "Trois Français tués en Afrique du Sud, l’ex-mari de l’une des victimes arrêté au Luxembourg",
+      "publication_flux": "Thu, 30 Jul 2026 10:37:22 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/police-justice/lavocat-du-terroriste-carlos-condamne-a-la-perpetuite-et-atteint-dalzheimer-demande-sa-remise-en-liberte-20260730_RPJL6VQTANHOTEXD6CVI3VQSA4/",
+      "titre_releve": "L’avocat du terroriste Carlos, condamné à la perpétuité et atteint d’Alzheimer, demande sa remise en liberté",
+      "publication_flux": "Thu, 30 Jul 2026 09:57:24 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/police-justice/amy-winehouse-le-pere-de-la-chanteuse-condamne-a-payer-pres-dun-million-de-livres-a-deux-amies-de-sa-fille-a-lissue-dun-proces-20260730_AGUF5CQGTZCMZD5KOTEZNKTHC4/",
+      "titre_releve": "Le père de la chanteuse Amy Winehouse condamné à payer plus d’un million d’euros à deux amies de sa fille à l’issue d’un procès",
+      "publication_flux": "Thu, 30 Jul 2026 09:21:39 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/plus/speciaux-cahier-ete/belleville-le-palais-de-toute-la-chine-le-quartier-est-forme-dune-superposition-dorigines-20260729_4MC4WLSBS5F3RC6ARMAWA5CO6Q/",
+      "titre_releve": "Belleville, le palais de toute la Chine : «Le quartier est formé d’une superposition d’origines»",
+      "publication_flux": "Wed, 29 Jul 2026 16:00:00 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/lifestyle/voyages/testing-dans-les-boites-de-nuit-la-partie-emergee-de-liceberg-des-discriminations-racistes-20260729_BIYT34XU5VH4LL53DG4LX5EMAI/",
+      "titre_releve": "Testing dans les boîtes de nuit : la partie émergée de l’iceberg des discriminations racistes",
+      "publication_flux": "Wed, 29 Jul 2026 15:37:33 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/police-justice/jared-leto-accuse-de-violences-sexuelles-par-quatre-femmes-alors-quelles-etaient-adolescentes-20260729_7BP6UVDPHFE4RFAWGIMCRHCCQY/",
+      "titre_releve": "Jared Leto accusé de violences sexuelles par quatre femmes alors qu’elles étaient adolescentes",
+      "publication_flux": "Wed, 29 Jul 2026 15:23:07 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/police-justice/je-ne-lui-ai-jamais-vu-un-ventre-de-femme-enceinte-apres-la-decouverte-des-corps-de-cinq-nourrissons-a-orange-le-quartier-a-lheure-de-la-sideration-20260729_I6JWYF3QORFXZMXZGTHUWRTJJ4/",
+      "titre_releve": "«Je ne lui ai jamais vu un ventre de femme enceinte» : après la découverte des corps de cinq nourrissons à Orange, le quartier à l’heure de la «sidération»",
+      "publication_flux": "Wed, 29 Jul 2026 14:52:17 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/religions/voyage-du-pape-en-france-les-mosaiques-dun-religieux-auteur-de-violences-sexuelles-embarrassent-leglise-20260729_LES5ALXD5RE3XCINL6DB2VEBZM/",
+      "titre_releve": "Voyage du pape en France : les mosaïques d’un religieux auteur de violences sexuelles embarrassent l’Eglise",
+      "publication_flux": "Wed, 29 Jul 2026 14:29:20 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/environnement/pollution/baignade-dans-la-seine-deux-sites-fermes-par-intermittence-a-paris-en-raison-dune-pollution-au-fioul-20260729_AP7KLWHQIBD2FP3CWT4ASQZC2E/",
+      "titre_releve": "Baignade dans la Seine : deux sites fermés par intermittence à Paris en raison d’une pollution au fioul",
+      "publication_flux": "Wed, 29 Jul 2026 14:13:35 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/sante/face-aux-canicules-a-repetition-les-malades-chroniques-eprouves-cest-la-debrouille-20260729_HNPJPPHWB5FPJCCCNKX3GEREJU/",
+      "titre_releve": "Face aux canicules à répétition, les malades chroniques éprouvés : «C’est la débrouille»",
+      "publication_flux": "Wed, 29 Jul 2026 13:04:44 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/police-justice/a-orange-cinq-corps-de-bebes-retrouves-au-domicile-dun-couple-20260728_UMZTB5Y3WFEMZILW6TMHPGF3D4/",
+      "titre_releve": "Autopsie, profil des parents, déni de grossesse… Ce que l’on sait sur les cinq bébés morts retrouvés à Orange",
+      "publication_flux": "Wed, 29 Jul 2026 12:36:24 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/police-justice/on-sest-sentis-completement-abandonnes-apres-lincendie-qui-a-ravage-le-porge-les-habitants-lancent-une-action-en-justice-20260729_3BXCGSSYTZDMRNBJRMVXJJMWFY/",
+      "titre_releve": "«On s’est sentis complètement abandonnés» : après l’incendie qui a ravagé Le Porge, les habitants lancent une action en justice",
+      "publication_flux": "Wed, 29 Jul 2026 11:15:08 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/police-justice/je-voulais-juste-boire-une-biere-sept-supporteurs-juges-pour-une-rixe-a-paris-en-marge-de-la-finale-de-la-coupe-de-france-20260729_CALAVCVWNBED3M6UV4URRXYXLI/",
+      "titre_releve": "«Je voulais juste boire une bière» : sept supporteurs jugés pour une rixe à Paris en marge de la finale de la Coupe de France",
+      "publication_flux": "Wed, 29 Jul 2026 11:08:02 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/education/a-cause-du-comportement-de-ses-parents-un-eleve-peut-desormais-etre-force-de-changer-detablissement-20260729_4ZTYI5F7ZVHG5C34DZCYJ3VM4E/",
+      "titre_releve": "A cause du comportement de ses parents, un élève peut désormais être forcé de changer d’établissement",
+      "publication_flux": "Wed, 29 Jul 2026 10:20:03 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/international/antisemitisme-les-attaques-meurtrieres-ont-atteint-un-record-inegale-depuis-plus-de-30-ans-dans-le-monde-20260729_734LNWG4OFAXVKREWCYF6N7CAU/",
+      "titre_releve": "Antisémitisme : les attaques meurtrières ont atteint un record inégalé depuis plus de trente ans dans le monde",
+      "publication_flux": "Wed, 29 Jul 2026 08:08:16 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/police-justice/crime-au-manoir-entre-les-vieilles-pierres-cinquante-ans-de-crasses-et-de-haine-reciproque-20260729_IGO77VZ4SFDV3LZRUMFKZRPPVA/",
+      "titre_releve": "Crime au manoir : entre les vieilles pierres, cinquante ans de crasses et de haine réciproque",
+      "publication_flux": "Wed, 29 Jul 2026 08:06:29 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/le-nombre-de-morts-sur-les-autoroutes-a-augmente-en-2025-20260729_SZFMDF5LR5HKHI27UYNVFASMEU/",
+      "titre_releve": "Le nombre de morts sur les autoroutes a augmenté en 2025",
+      "publication_flux": "Wed, 29 Jul 2026 06:51:16 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/international/offensive-americaine-contre-la-justice-internationale-la-cour-penale-internationale-traverse-un-climat-de-tempete-20260729_7HIG3P6MRZB6BILCE5AR4YBKTQ/",
+      "titre_releve": "Offensive américaine contre la justice internationale : «La CPI traverse un climat de tempête»",
+      "publication_flux": "Wed, 29 Jul 2026 04:00:01 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/police-justice/affaire-lyhanna-924-personnes-incarcerees-depuis-le-reexamen-des-plaintes-demande-par-le-ministre-de-la-justice-20260728_C3HXNRTOONCQ7B6EATEK52OJGA/",
+      "titre_releve": "Affaire Lyhanna : 924 personnes incarcérées depuis le réexamen des plaintes demandé par le ministre de la Justice",
+      "publication_flux": "Tue, 28 Jul 2026 20:20:02 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/police-justice/une-mosquee-daulnay-sous-bois-fermee-six-mois-pour-incitation-a-la-violence-et-apologie-du-terrorisme-20260728_VTXDX3G2MFDARGQOQSS52FXERA/",
+      "titre_releve": "Une mosquée d’Aulnay-sous-Bois fermée six mois pour «incitation à la violence» et «apologie du terrorisme»",
+      "publication_flux": "Tue, 28 Jul 2026 19:59:16 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/environnement/climat/leurodeputee-chloe-ridel-menacee-de-mort-sur-les-reseaux-sociaux-le-pole-specialise-dans-la-haine-en-ligne-saisi-20260728_PKM3KRM4IRHTXKOLPGF6QEB4OA/",
+      "titre_releve": "L’eurodéputée Chloé Ridel menacée de mort sur les réseaux sociaux, le pôle spécialisé dans la haine en ligne saisi",
+      "publication_flux": "Tue, 28 Jul 2026 19:21:49 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/environnement/incendies-en-gironde-le-feu-agit-aux-portes-du-camp-militaire-de-souge-selon-le-maire-de-martignas-sur-jalle-20260728_GABSW2XKFRGYPLXZJ5IATBBBSQ/",
+      "titre_releve": "Incendies en Gironde : le «feu agit aux portes du camp» militaire de Souge, selon le maire de Martignas-sur-Jalle",
+      "publication_flux": "Tue, 28 Jul 2026 18:57:13 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/ville/au-pied-de-la-tour-montparnasse-ou-sont-tombes-des-morceaux-de-vitre-linquietude-des-riverains-et-habitants-cest-vetuste-et-dangereux-20260728_ZUU4Q4K2UVDIFFKBHDNWHCOI6A/",
+      "titre_releve": "Au pied de la tour Montparnasse où sont tombés des morceaux de vitre, l’inquiétude des riverains et habitants : «C’est vétuste et dangereux»",
+      "publication_flux": "Tue, 28 Jul 2026 18:18:45 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/droits-des-femmes/hypersexualisation-le-buste-de-dalida-noirci-un-sain-dessein-20260728_4DQWIF7MFJHWXJENWGI3KVWANQ/",
+      "titre_releve": "Hypersexualisation : le buste de Dalida noirci, un sain dessein",
+      "publication_flux": "Tue, 28 Jul 2026 17:19:41 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/sante/incident-openai-sam-altman-evoque-un-ralentissement-volontaire-du-developpement-de-lia-20260728_K2YFJHJMWVF6PHMO54W2P2JW6Q/",
+      "titre_releve": "Incident OpenAI : Sam Altman évoque un ralentissement volontaire du développement de l’IA",
+      "publication_flux": "Tue, 28 Jul 2026 17:04:13 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/plus/speciaux-cahier-ete/a-la-station-jaures-le-tibet-tient-le-bon-gout-20260728_MAYNMT7AFREOPJUUE7G7JUYQH4/",
+      "titre_releve": "A la station Jaurès, le Tibet tient le bon goût",
+      "publication_flux": "Tue, 28 Jul 2026 16:00:00 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/sante/la-lutte-contre-le-sida-menacee-par-la-baisse-des-budgets-daide-internationale-20260728_WHPXLXKYI5EPNOR6JXZOJCYU4U/",
+      "titre_releve": "La lutte contre le sida menacée par la baisse des budgets d’aide internationale",
+      "publication_flux": "Tue, 28 Jul 2026 15:56:44 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/police-justice/trois-personnes-blessees-dans-une-attaque-aux-couteaux-a-paris-un-suspect-interpelle-20260727_NXQIWVAYNFHUXAAHD2OULYJKNA/",
+      "titre_releve": "Trois femmes blessées dans une attaque aux couteaux à Paris : la garde à vue du suspect levée pour raison psychiatrique",
+      "publication_flux": "Tue, 28 Jul 2026 15:28:03 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/police-justice/mort-de-quentin-deranque-deux-des-activistes-antifascistes-mis-en-examen-deposent-plainte-contre-des-militants-dextreme-droite-pour-des-violences-20260728_CZW3HJ7QHFDVDAIBHGUX524BRY/",
+      "titre_releve": "Mort de Quentin Deranque : deux des activistes antifascistes mis en examen déposent plainte contre des militants d’extrême droite pour des violences",
+      "publication_flux": "Tue, 28 Jul 2026 15:06:00 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/dans-les-rangs-des-pompiers-volontaires-une-lassitude-alarmante-ils-nont-pas-signe-pour-ca-20260728_RTQPIUFUPJGRZKSHURSLMAE5UE/",
+      "titre_releve": "Dans les rangs des pompiers volontaires, une lassitude alarmante : «Ils n’ont pas signé pour ça»",
+      "publication_flux": "Tue, 28 Jul 2026 14:09:21 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/lifestyle/cagnottes-cohabitation-dons-face-aux-incendies-un-elan-de-solidarite-massif-20260728_IRO4ZTAXQVER5MF4KH5JUGTECI/",
+      "titre_releve": "Cagnottes, cohabitation, dons… face aux incendies, un «élan de solidarité massif»",
+      "publication_flux": "Tue, 28 Jul 2026 14:06:45 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/environnement/climat/incendies-en-france-soupconne-dune-serie-de-departs-de-feu-dans-le-var-un-suspect-interpelle-20260728_R2LR4ZXLJJBMVMF2ZI3LTYPYEQ/",
+      "titre_releve": "Incendies en France : soupçonné d’une série de départs de feu dans le Var, un suspect interpellé",
+      "publication_flux": "Tue, 28 Jul 2026 11:20:00 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/sante/le-deficit-des-hopitaux-publics-estime-a-23-milliards-deuros-en-2025-en-leger-reflux-par-rapport-en-2024-20260728_MVD67VDZ2VFT5GZS7MOZE5F6SY/",
+      "titre_releve": "Le déficit des hôpitaux publics estimé à 2,3 milliards d’euros en 2025, en léger reflux par rapport en 2024",
+      "publication_flux": "Tue, 28 Jul 2026 09:44:29 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/racisme-dans-des-boites-de-nuit-ou-des-plages-privees-sos-racisme-va-porter-plainte-contre-huit-etablissements-20260728_H7W2CMKT4ZBARM66IRJRFFO6YA/",
+      "titre_releve": "Racisme dans des boîtes de nuit ou des plages privées : SOS Racisme va porter plainte contre huit établissements",
+      "publication_flux": "Tue, 28 Jul 2026 07:31:48 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/police-justice/patrick-bruel-vise-par-deux-nouvelles-plaintes-pour-viol-et-agression-sexuelle-20260728_WLA5327U7ZEWJIYNRQ3UBCRIEQ/",
+      "titre_releve": "Patrick Bruel visé par deux nouvelles plaintes pour viol et agression sexuelle",
+      "publication_flux": "Tue, 28 Jul 2026 07:30:34 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/droits-des-femmes/affaire-des-viols-libertins-en-gironde-les-plateformes-numeriques-comme-wyylde-paravents-des-predateurs-sexuels-20260728_6525KOHIMBA7LCGEJ6QYBZYNPY/",
+      "titre_releve": "Affaire des viols «libertins» en Gironde : les plateformes comme Wyylde, paravents des auteurs de violences sexuelles",
+      "publication_flux": "Tue, 28 Jul 2026 07:20:28 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/droits-des-femmes/violences-faites-aux-femmes-a-brive-la-gaillarde-un-cocon-pour-le-corps-et-le-coeur-20260728_AMHRTAHESNBV7NUO3X36OWVZJM/",
+      "titre_releve": "Violences faites aux femmes : à Brive-la-Gaillarde, un cocon pour le corps et le cœur",
+      "publication_flux": "Tue, 28 Jul 2026 03:00:00 +0000",
+      "evenement": null
+    },
+    {
+      "media": "liberation",
+      "url": "https://www.liberation.fr/societe/a-marcheprime-le-feu-est-comme-un-boxeur-qui-a-un-genou-a-terre-il-faut-le-faire-tomber-20260727_WZ7W3XJYQ5HHPB55EUGW6OQJDQ/",
+      "titre_releve": "A Marcheprime, le feu est comme «un boxeur qui a un genou à terre, il faut le faire tomber»",
+      "publication_flux": "Mon, 27 Jul 2026 19:49:11 +0000",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/bebes-retrouves-morts-a-orange-la-mere-presentee-a-un-juge-dinstruction-ce-vendredi-matin-son-compagnon-relache-hier-soir-31-07-2026-7DTJ2WSIYFC23JH4B2NQ5JUI5Y.php",
+      "titre_releve": "Bébés retrouvés morts à Orange : la mère présentée à un juge d’instruction ce vendredi matin, son compagnon relâché hier soir",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/canada-une-mosquee-visee-par-des-tirs-le-premier-ministre-mark-carney-denonce-un-acte-islamophobe-31-07-2026-UXNDZ3GDTFGYJJLSR4VYQIIPPY.php",
+      "titre_releve": "Canada : une mosquée visée par des tirs, le Premier ministre Mark Carney dénonce un acte « islamophobe »",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/sports/cyclisme/addictions-redemption-garde-a-vue-erwann-mentheour-un-ancien-cycliste-dans-la-tourmente-31-07-2026-6N6IFBXBF5CNFBIAYTPCQ3FBFE.php",
+      "titre_releve": "Addictions, rédemption, garde à vue… Erwann Menthéour, un ancien cycliste dans la tourmente",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/incendies-308-personnes-dont-120-mineurs-ont-ete-interpellees-en-lien-avec-les-feux-annonce-laurent-nunez-31-07-2026-LD3LX7CAHNFQRJJEXELVWWUB7Y.php",
+      "titre_releve": "Incendies : 308 personnes, dont 120 mineurs, ont été interpellées en lien avec les feux, annonce Laurent Nuñez",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/international/avalanche-au-pakistan-dix-alpinistes-internationaux-dont-nirmal-purja-disparus-sur-le-broad-peak-31-07-2026-NWG3RNNGAZBUDA3UFJUU6L6I5U.php",
+      "titre_releve": "Avalanche au Pakistan : dix alpinistes internationaux dont Nirmal Purja disparus sur le Broad Peak",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/guadeloupe-un-ouvrier-meurt-dans-leffondrement-dun-immeuble-a-pointe-a-pitre-une-enquete-ouverte-pour-homicide-involontaire-31-07-2026-IFHELGE4KBEBDKNYBUGXADN4DM.php",
+      "titre_releve": "Guadeloupe : un ouvrier meurt dans l’effondrement d’un immeuble à Pointe-à-Pitre, une enquête ouverte pour « homicide involontaire »",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/oise-60/une-enquete-pour-tentative-de-meurtre-ouverte-apres-une-agression-en-reunion-a-nogent-sur-oise-31-07-2026-KC5EPKSC6RHXPI2KAEUYP27VCA.php",
+      "titre_releve": "Une enquête pour tentative de meurtre ouverte après une agression en réunion à Nogent-sur-Oise",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/seine-et-marne-77/le-triste-sauvetage-de-23-chihuahuas-et-dun-chat-chez-un-particulier-de-savigny-le-temple-en-grande-detresse-emotionnelle-31-07-2026-ISZF3VWXIVCP7BZM7HE3MS7RUA.php",
+      "titre_releve": "Le triste sauvetage de 23 chihuahuas et d’un chat chez un particulier de Savigny-le-Temple «en grande détresse émotionnelle»",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/tueries-du-brabant-vingt-huit-morts-et-toujours-un-mystere-la-piste-francaise-des-freres-sliman-seloigne-30-07-2026-DRNPINJHJNCSTM7PRAKRWATL3E.php",
+      "titre_releve": "Tueries du Brabant : vingt-huit morts et toujours un mystère, la piste française des frères Sliman s’éloigne",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/environnement/climat/bonne-surprise-tout-va-bien-en-gironde-les-retours-prudents-devacues-de-lincendie-30-07-2026-M3XVTWDJLJCLXB63NNKTWCQIPA.php",
+      "titre_releve": "« Bonne surprise, tout va bien » : en Gironde, les retours prudents d’évacués de l’incendie",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/loire-42/saint-etienne-la-mere-du-bebe-retrouve-mort-dans-un-sac-poubelle-mise-en-examen-30-07-2026-6CJF77ZDOFBRLJTPFQ2PVHVKJQ.php",
+      "titre_releve": "Saint-Étienne : la mère du bébé retrouvé mort dans un sac-poubelle mise en examen",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/bebes-retrouves-morts-a-orange-la-mere-reconnait-avoir-demenage-les-ossements-30-07-2026-AV36ZXPOTJAJXP6WND26PHHECE.php",
+      "titre_releve": "Bébés retrouvés morts à Orange : la mère reconnaît avoir déménagé les ossements",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/culture-loisirs/accuse-de-violences-sexistes-et-sexuelles-par-plusieurs-femmes-gerard-darmon-doit-renoncer-a-sa-piece-a-paris-en-septembre-30-07-2026-HQB3MHYXDVBEHM3EJAHTARL5RI.php",
+      "titre_releve": "Gérard Darmon, accusé de violences sexistes et sexuelles par plusieurs femmes, doit renoncer à sa pièce de théâtre",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/en-seine-et-marne-le-premier-quartier-ultra-securise-dile-de-france-pret-a-accueillir-20-detenus-30-07-2026-AB5P7HJJYNBMBNCHDXRSVDEFUU.php",
+      "titre_releve": "En Seine-et-Marne, le premier quartier ultra-sécurisé d’Île-de-France prêt à accueillir 20 détenus",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/un-americain-accuse-davoir-frappe-des-enfants-pendant-une-croisiere-arrete-en-etat-debriete-avancee-30-07-2026-JYUNRWMWKJB6NFCZVVLXFPZVJI.php",
+      "titre_releve": "Un Américain accusé d’avoir frappé des enfants pendant une croisière arrêté « en état d’ébriété avancée »",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/un-professeur-particulier-juge-en-octobre-a-paris-pour-violences-sexuelles-sur-ses-eleves-a-lile-maurice-30-07-2026-QJBBSRWWNZHXDFK6DB5XDMC7RQ.php",
+      "titre_releve": "Un professeur particulier jugé en octobre à Paris pour violences sexuelles sur ses élèves à l’Île Maurice",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/aucune-rancune-un-chasseur-sous-marin-filme-le-requin-qui-a-failli-lui-arracher-la-jambe-aux-fidji-30-07-2026-7DA7KMN2PJHKJICQ2DUVWJJZAU.php",
+      "titre_releve": "Quatre opérations mais « aucune rancune » : le mea-culpa d’un chasseur sous-marin qui a filmé l’attaque d’un requin aux Fidji",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/societe/deni-de-grossesse-le-premier-tabou-a-lever-cest-darreter-de-penser-que-les-femmes-le-font-expres-30-07-2026-763UK2A5BZE4LAHS3PZDLF5MPA.php",
+      "titre_releve": "Déni de grossesse : « Le premier tabou à lever, c’est d’arrêter de penser que les femmes le font exprès »",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/ramenez-la-moi-noopy-la-petite-chihuahua-volee-devant-le-portail-de-ses-maitres-30-07-2026-VTOSZZCKGRACPK25HE7PZSONMU.php",
+      "titre_releve": "« Ramenez-la moi ! » : Noopy, la petite chihuahua volée devant le portail de ses maîtres",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/oise-60/il-sort-de-sa-camionnette-couteau-en-main-et-tente-de-segorger-devant-les-gendarmes-30-07-2026-VGJQRD2SOFC3HOPNRSCHNPUONA.php",
+      "titre_releve": "Il sort de sa camionnette couteau en main et tente de s’égorger devant les gendarmes",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/hautes-pyrenees-65/hautes-pyrenees-une-fillette-de-trois-ans-mordue-par-une-vipere-30-07-2026-K7SNTRGMOVBWXBX6S53LYIXJNA.php",
+      "titre_releve": "Hautes-Pyrénées : une fillette de trois ans mordue par une vipère",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/paris-75/refuse-comme-policier-a-paris-a-cause-dune-marque-de-priere-sur-le-front-il-obtient-enfin-gain-de-cause-30-07-2026-IDF44QXBDNFDDCOPGK3R7JM4HY.php",
+      "titre_releve": "Refusé comme policier à Paris à cause d’une marque de prière sur le front, il obtient enfin gain de cause",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/charente-maritime-17/850-personnes-et-des-chiens-harmonises-a-distance-1-an-de-prison-avec-sursis-pour-le-couple-de-faux-medecins-en-charente-maritime-30-07-2026-BG4WEPF265GMRCERL35FXDDCJY.php",
+      "titre_releve": "850 personnes et des chiens « harmonisés » à distance : 1 an de prison avec sursis pour le couple de faux médecins en Charente-Maritime",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/hautes-alpes-trois-personnes-seront-jugees-pour-avoir-abattu-neuf-loups-illegalement-30-07-2026-3TV4IVWGBVGBZEEBLFGMZSAASI.php",
+      "titre_releve": "Hautes-Alpes : trois personnes seront jugées pour avoir abattu neuf loups illégalement",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/eure-et-loir-28/certains-sont-passes-a-un-cheveu-de-la-mort-la-veterinaire-de-chateaudun-traquee-en-belgique-apres-la-decouverte-dun-nouveau-mouroir-a-chats-30-07-2026-JBOFYOBMYZBKXKJEDL37IRSRUI.php",
+      "titre_releve": "« Certains sont passés à un cheveu de la mort » : la vétérinaire de Châteaudun traquée en Belgique après la découverte d’un nouveau mouroir à chats",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/hauts-de-seine-92/sale-juif-retourne-en-israel-le-rabbin-de-nanterre-insulte-dans-un-supermarche-une-plainte-deposee-30-07-2026-3LYUFFZBYFECJHF6YMQH5RYO4Q.php",
+      "titre_releve": "« Sale juif », « retourne en Israël » : le rabbin de Nanterre porte plainte après des insultes antisémites, une enquête ouverte",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/nicolas-lerner-patron-de-la-dgse-linstitution-a-le-devoir-dassumer-lhistoire-du-lieu-quelle-occupe-aujourdhui-30-07-2026-3JZFDY6YBZG5VPXNXDQDWPESC4.php",
+      "titre_releve": "Nicolas Lerner, patron de la DGSE : « L’institution a le devoir d’assumer l’histoire du lieu qu’elle occupe aujourd’hui »",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/bouches-du-rhone-13/qui-etait-laurent-manson-pompier-decede-sur-le-front-des-incendies-dans-les-bouches-du-rhone-30-07-2026-MV73VG7T4JGH3AISY22RJSZYIY.php",
+      "titre_releve": "Qui était Laurent Manson, pompier décédé sur le front des incendies dans les Bouches-du-Rhône ?",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/pas-un-noir-pas-un-arabe-bfmtv-denonce-une-video-ou-des-propos-racistes-sont-tenus-micro-de-la-chaine-en-main-30-07-2026-J6E6MBDLD5CIVL3JIBFV75P4AE.php",
+      "titre_releve": "« Pas un Noir, pas un Arabe » : BFMTV dénonce une vidéo où des propos racistes sont tenus, micro de la chaîne en main",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/pourquoi-la-justice-soupconne-lancien-pilote-de-chasse-pierre-henri-chuet-despionnage-au-profit-de-la-chine-30-07-2026-PR6WFX3BJNAE7BDGLD5J2YSTJ4.php",
+      "titre_releve": "Les curieuses conférences de l’ex-pilote de chasse Pierre-Henri Chuet, soupçonné d’espionnage au profit de la Chine",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/propagandiste-du-kremlin-cinq-minutes-pour-comprendre-lexpulsion-de-la-chroniqueuse-pro-russe-xenia-fedorova-30-07-2026-ZYYCETQDIJAI3DSCVTSF6VJ4EQ.php",
+      "titre_releve": "« Propagandiste du Kremlin » : cinq minutes pour comprendre la procédure d’expulsion de la chroniqueuse pro-russe Xenia Fedorova",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/pyrenees-orientales-66/jai-lance-un-appel-a-mes-amis-artistes-vente-aux-encheres-cagnottes-et-repas-solidaire-pour-les-sinistres-des-pyrenees-orientales-30-07-2026-RQHL2UD5BJDKXGT2ZH6IIREBUU.php",
+      "titre_releve": "« J’ai lancé un appel à mes amis artistes » : vente aux enchères, cagnottes et repas solidaire pour les sinistrés des Pyrénées-Orientales",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/val-de-marne-94/deversement-de-fioul-dans-la-marne-saint-maur-des-fosses-porte-plainte-contre-x-les-auteurs-toujours-recherches-30-07-2026-TJWXPOQD5JBPZMW3SY7ZD4VPU4.php",
+      "titre_releve": "Déversement de fioul dans la Marne : Saint-Maur-des-Fossés porte plainte contre X, les auteurs toujours recherchés",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/je-nallais-pas-lacher-cet-enfant-le-recit-du-sauveteur-de-16-ans-qui-a-defie-les-vagues-pour-sauver-un-garcon-en-californie-30-07-2026-X4EEYC4BVZFC7ALMGW4XC2BF5E.php",
+      "titre_releve": "« Je n’allais pas lâcher cet enfant » : le récit du sauveteur de 16 ans qui a défié les vagues pour sauver un garçon en Californie",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/mulhouse-un-militant-reconquete-condamne-a-3-mois-de-prison-avec-sursis-pour-un-salut-nazi-30-07-2026-C44J3ODWRBDEPMGAAOKNXVF5QU.php",
+      "titre_releve": "Mulhouse : un militant Reconquête condamné à 3 mois de prison avec sursis pour un salut nazi",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/sports/cyclisme/erwann-mentheour-lex-cycliste-pro-devenu-coach-sportif-place-en-garde-a-vue-pour-des-agressions-sexuelles-sur-sa-fille-30-07-2026-QPXLGTHJZZGOBN7DE6AFJXMOPA.php",
+      "titre_releve": "Erwann Menthéour, l’ex cycliste pro devenu coach sportif, placé en garde à vue pour des agressions sexuelles sur sa fille",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/un-homme-meurt-percute-par-une-cabine-de-toilettes-tombee-dun-camion-sur-une-autoroute-aux-etats-unis-30-07-2026-Z7YDC2QOGZGKJA4H24GP2HEN7Q.php",
+      "titre_releve": "Une cabine de toilettes tombe d’un camion et tue un automobiliste dans l’Arkansas",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/seine-et-marne-77/gucci-versace-lacoste-une-employee-dun-entrepot-avait-detourne-plus-de-100-000-euros-de-produits-de-luxe-30-07-2026-3NDJ4EWJXZCJXAZJUHM5B7S6VQ.php",
+      "titre_releve": "Gucci, Versace, Lacoste… Une employée d’un entrepôt avait détourné plus de 100 000 euros de produits de luxe",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/incendies-275-interpellations-dont-70-pour-des-incendies-volontaires-annonce-laurent-nunez-dans-un-nouveau-bilan-30-07-2026-NGRCB6Q3BVA3RKX2Q2OBEQIHUM.php",
+      "titre_releve": "Incendies : 275 interpellations, dont 70 % pour des incendies volontaires, annonce Laurent Nuñez dans un nouveau bilan",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/migrants-quatre-morts-dans-deux-tentatives-de-traversee-de-la-manche-30-07-2026-MWCKK4QRWFCAFLDWGPJ5TBY444.php",
+      "titre_releve": "Migrants : quatre morts dans deux tentatives de traversée de la Manche",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/mort-dune-femme-apres-une-injection-de-botox-dans-un-salon-desthetique-a-nice-ce-que-lon-sait-30-07-2026-MWZZEODVJFH4TIB3C7WAHZA6JA.php",
+      "titre_releve": "Nice : ce que l’on sait de la mort d’une femme après une injection de botox dans un salon d’esthétique",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/seine-et-marne-77/fontainebleau-77300/incendies-a-fontainebleau-ce-quil-faut-savoir-sur-les-dernieres-reprises-de-feu-30-07-2026-JRY6LJUFP5HDVB4CN7INMYH6UA.php",
+      "titre_releve": "Incendies à Fontainebleau : ce qu’il faut savoir sur les dernières reprises de feu",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/trois-pompiers-decedes-en-intervention-en-grece-en-proie-a-de-violents-incendies-30-07-2026-5V7FYEPBIBEFRGFNCZLZ56URWU.php",
+      "titre_releve": "Trois pompiers décédés en intervention en Grèce, en proie à de violents incendies",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/puy-de-dome-63/cest-une-blague-il-decouvre-que-sa-megane-achetee-doccasion-appartient-a-emmanuel-macron-30-07-2026-ZZDZO5WETFBSPPVVOODXYRJ53A.php",
+      "titre_releve": "« C’est une blague ? » : il découvre que sa Mégane achetée d’occasion appartient… à Emmanuel Macron",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/var-un-homme-condamne-a-quatre-ans-de-prison-pour-avoir-poignarde-un-client-dans-un-bar-de-toulon-30-07-2026-7L37YMRWBBEI5JCUY2YT3OQVHE.php",
+      "titre_releve": "Var : un homme condamné à quatre ans de prison pour avoir poignardé un client dans un bar de Toulon",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/seine-maritime-76/un-pecheur-normand-retrouve-un-obus-de-la-seconde-guerre-mondiale-en-remontant-ses-filets-30-07-2026-37AQH554XZA5TDXJHMQTDDZGDE.php",
+      "titre_releve": "Un pêcheur normand retrouve un obus de la Seconde Guerre mondiale en remontant ses filets",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/jai-pas-fait-expres-un-homme-de-39-ans-condamne-pour-avoir-allume-un-feu-de-vegetation-a-ollioules-dans-le-var-30-07-2026-4PYL23SV3FH5LGBZAVHLC4KA64.php",
+      "titre_releve": "« J’ai pas fait exprès » : un homme de 39 ans condamné pour avoir allumé un feu de végétation à Ollioules, dans le Var",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/environnement/il-ne-faut-pas-se-precipiter-apres-les-incendies-le-casse-tete-de-la-reconstruction-des-forets-30-07-2026-UWDXJX2SRRE7BI6QZLXS5AC4FU.php",
+      "titre_releve": "« Il ne faut pas se précipiter » : après les incendies, le casse-tête de la reconstruction des forêts",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/1-048-ans-de-prison-pour-des-membres-de-el-gremio-petite-victoire-dans-la-guerre-contre-les-gangs-au-salvador-30-07-2026-TJE43EU6WFHW7E2HQE4NEC4GVI.php",
+      "titre_releve": "1 048 ans de prison pour des membres de « El Gremio » : petite victoire dans la guerre contre les gangs au Salvador",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/lassaillant-de-lecrivain-salman-rushdie-reconnu-coupable-de-terrorisme-aux-etats-unis-30-07-2026-53SWJQHW7ZHIXONXCGFSVRIIC4.php",
+      "titre_releve": "L’assaillant de l’écrivain Salman Rushdie reconnu coupable de terrorisme aux États-Unis",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/sports/football/ligue-1/incidents-a-nice-prison-ferme-requise-contre-deux-ultras-pour-violences-sur-des-joueurs-victimes-dun-guet-apens-30-07-2026-RYL3L6EEX5CFPLLBKRSFWYVIGA.php",
+      "titre_releve": "Incidents à Nice : prison ferme requise contre deux ultras pour violences sur des joueurs victimes d’un « guet-apens »",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/pyrenees-atlantiques-64/pyrenees-atlantiques-un-homme-blesse-a-350-m-de-profondeur-dans-une-grotte-apres-un-accident-de-speleologie-30-07-2026-LBVLVFVBMJEZNEI4EGVSMK4XE4.php",
+      "titre_releve": "Pyrénées-Atlantiques : vaste opération de secours pour venir en aide à un spéléologue blessé à 350 m de profondeur dans une grotte",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/val-d-oise-95/sans-brassards-tu-ne-passes-pas-comment-la-base-de-loisirs-de-cergy-veut-eviter-les-noyades-de-jeunes-enfants-30-07-2026-YZDVHN7I75EZDGNMGG5MX2EWD4.php",
+      "titre_releve": "« Sans brassards, tu ne passes pas » : comment la base de loisirs de Cergy veut éviter les noyades de jeunes enfants",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/il-regrette-profondement-juge-pour-avoir-leche-une-paille-a-singapour-un-francais-de-19-ans-evite-la-prison-de-justesse-30-07-2026-WCMHQRGWY5D2LNKODVAKEZ35WM.php",
+      "titre_releve": "« Il regrette profondément » : jugé pour avoir léché une paille à Singapour, un Français de 19 ans évite la prison de justesse",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/incendie-de-la-foret-de-fontainebleau-reprise-de-feu-fixee-6-hectares-brules-30-07-2026-QP62HFZHP5BTFAWBKEAZZF2I6M.php",
+      "titre_releve": "Incendie de la forêt de Fontainebleau : reprise de feu « fixée », 6 hectares brûlés",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/une-bombe-qui-nous-tombe-sur-la-tete-apres-la-decouverte-du-corps-de-5-bebes-lincomprehension-des-proches-du-couple-30-07-2026-IVOZOPYJPVHSPDV2SPLNFG24WM.php",
+      "titre_releve": "« Une bombe qui nous tombe sur la tête » : après la découverte du corps de 5 bébés, l’incompréhension des proches du couple",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/environnement/climat/incendie-en-gironde-au-porge-des-habitants-sestiment-sacrifies-au-profit-du-cap-ferret-et-saisissent-un-avocat-30-07-2026-FYLN7HG7T5CCVEPFBDEFE2E6LU.php",
+      "titre_releve": "Incendie en Gironde : au Porge, des habitants s’estiment « sacrifiés » au profit du Cap Ferret et saisissent un avocat",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/argentine-sept-morts-dans-le-crash-dun-helicoptere-de-lutte-contre-les-feux-de-foret-en-zone-isolee-29-07-2026-F5BMP6GR5BHSROBIKDDKXQO7RM.php",
+      "titre_releve": "Argentine : sept morts dans le crash d’un hélicoptère de lutte contre les feux de forêt en zone isolée",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/seine-et-marne-77/seine-et-marne-une-importante-reprise-de-feu-en-foret-de-fontainebleau-sept-hectares-brules-29-07-2026-IAGU4P5GVJHGPC7SZKNIZCTPKA.php",
+      "titre_releve": "Seine-et-Marne : une « importante reprise de feu » en forêt de Fontainebleau, déjà sept hectares brûlés",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/marseille-le-chef-etoile-gerald-passedat-agresse-en-rentrant-chez-lui-sa-montre-patek-philippe-estimee-a-58-000-euros-derobee-29-07-2026-YRS4C3G6LFCS3E6Z7LBMXKRIJQ.php",
+      "titre_releve": "Marseille : le chef étoilé Gérald Passedat agressé en rentrant chez lui, sa montre Patek Philippe estimée à 58 000 euros dérobée",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/un-ancien-pilote-de-laeronavale-francaise-mis-en-examen-pour-intelligence-avec-la-chine-29-07-2026-S2OUJGGK4BEVDJI6CP35GGG4UQ.php",
+      "titre_releve": "Un ancien pilote de chasse français mis en examen pour intelligence avec la Chine",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/des-gens-tres-gentils-le-choc-a-avranches-apres-la-mort-des-gerants-du-burger-king-assassines-en-afrique-du-sud-29-07-2026-QYW5XZB6KBHXJB7MTQXAAWCWW4.php",
+      "titre_releve": "Des « gens très gentils » : le choc à Avranches après la mort des gérants du Burger King, assassinés en Afrique du Sud",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/ain-01/et-on-sen-fout-on-naime-pas-les-bougnoules-la-justice-saisie-par-le-prefet-apres-des-chants-racistes-lors-de-la-feria-de-marboz-dans-lain-29-07-2026-4CEQ7MJQOJB47LQEJ2AVIXLQPU.php",
+      "titre_releve": "« Et on s’en fout, on n’aime pas les bougnoules » : la justice saisie par le préfet après des chants racistes lors de la feria de Marboz, dans l’Ain",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/loire-42/misere-sociale-et-carences-sanitaires-un-bebe-retrouve-mort-dans-un-sac-poubelle-a-saint-etienne-la-mere-en-garde-a-vue-29-07-2026-KVJFMZR2JZHD7NY4376ZQDY3FQ.php",
+      "titre_releve": "« Misère sociale » et « carences sanitaires » : un bébé retrouvé mort dans un sac-poubelle à Saint-Étienne, la mère en garde à vue",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/essonne-91/essonne-un-incendie-ravage-3-000-m2-de-prairie-du-parc-naturel-du-perray-une-creche-evacuee-par-precaution-29-07-2026-USRBZCIMRRAETPUK7VJNIE5C2U.php",
+      "titre_releve": "Essonne : un incendie ravage 3 000 m2 de prairie du parc naturel du Perray, une crèche évacuée par précaution",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/oise-60/cigarettes-barbecues-motocross-pour-eviter-un-nouveau-feu-de-foret-cest-tolerance-zero-dans-loise-29-07-2026-NC5XXSZEYFF6LGIPZZWP6B7KQ4.php",
+      "titre_releve": "Cigarettes, barbecues, motocross… pour éviter un nouveau feu de forêt, c’est tolérance zéro dans l’Oise",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/montelimar-un-ulm-chute-de-100-m-pendant-son-decollage-le-pilote-de-60-ans-meurt-sur-le-coup-29-07-2026-AKL7CCLIXFBW3JIBEPD3QR5UXI.php",
+      "titre_releve": "Montélimar : un ULM chute de 100 m pendant son décollage, le pilote de 60 ans meurt sur le coup",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/il-aimait-particulierement-les-scenes-de-demembrement-un-fan-de-dexter-reconnu-coupable-de-meurtre-au-royaume-uni-29-07-2026-VVD4JKZE6FA3VLK43JEWHJOVHA.php",
+      "titre_releve": "Il « aimait particulièrement les scènes de démembrement » : un fan de « Dexter » reconnu coupable de meurtre au Royaume-Uni",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/yvelines-78/plaies-au-couteau-et-coups-de-marteau-une-rixe-oppose-deux-hommes-a-poissy-29-07-2026-CCAIS3MZKNCWPAITWKZEOGRFUM.php",
+      "titre_releve": "Plaies au couteau et coups de marteau : une rixe oppose deux hommes à Poissy",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/gard-30/une-femme-cest-comme-une-prise-jack-un-t-shirt-porte-lors-dune-fete-dans-le-gard-fait-polemique-le-parquet-ouvre-une-enquete-29-07-2026-VH2M2O2G2RD6ZH5L3BUIWZLC2A.php",
+      "titre_releve": "« Une femme, c’est comme une prise jack » : un t-shirt porté lors d’une fête dans le Gard fait polémique, le parquet ouvre une enquête",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/incendies-volodymyr-zelensky-propose-lassistance-de-lukraine-a-la-france-29-07-2026-YODNKG5MVJFH7L3NP2CWCUXAJ4.php",
+      "titre_releve": "Incendies : Volodymyr Zelensky propose « l’assistance de l’Ukraine » à la France",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/un-acte-infame-un-adolescent-americain-de-16-ans-condamne-a-la-prison-a-vie-apres-avoir-tue-quatre-personnes-dans-son-lycee-29-07-2026-4YKH4WK3MNEUNHUBHEANDNPTRE.php",
+      "titre_releve": "« Un acte infâme » : un adolescent américain de 16 ans condamné à la prison à vie après avoir tué quatre personnes dans son lycée",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/video/actualites/meteo-climat/cetait-la-guerre-avec-mathis-qui-lutte-contre-le-feu-en-gironde-29-07-2026-7XNCRKSAIZFDNOUIUSFH3EJ7TA.php",
+      "titre_releve": "« Au milieu de l’enfer » : la course contre la montre de Mathis, bénévole face aux flammes en Gironde",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/proces-de-lexplosion-de-la-rue-trevise-a-paris-il-est-revoltant-que-les-victimes-sendettent-le-desarroi-des-parties-civiles-29-07-2026-VKT3RPBCDVBRDP6V5EGFD7WDXM.php",
+      "titre_releve": "Procès de l’explosion de la rue Trévise à Paris : « Il est révoltant que les victimes s’endettent », le désarroi des parties civiles",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/biarritz-deux-policiers-sauvent-un-nourrisson-piege-dans-une-voiture-en-pleine-canicule-29-07-2026-IZOOODTOXNCWLHR63BPZ6OBLRE.php",
+      "titre_releve": "Deux policiers de Biarritz sauvent un nourrisson piégé dans une voiture en pleine canicule",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/des-infirmieres-belges-font-croire-a-une-collegue-quun-traitement-aerosol-par-voie-anale-doit-etre-administre-leur-directeur-acquitte-29-07-2026-PF3NEP6S4ZGC7F7KD2JLQXR2GY.php",
+      "titre_releve": "Des infirmières belges font croire à une collègue qu’un traitement aérosol par voie anale doit être administré, leur directeur acquitté",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/nice-une-femme-retrouvee-morte-dans-un-salon-desthetique-trois-personnes-placees-en-garde-a-vue-29-07-2026-I2ZNLCQ265DLRF6YOO7UZ6LLGA.php",
+      "titre_releve": "Nice : une femme retrouvée morte dans un salon d’esthétique, trois personnes placées en garde à vue",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/faits-divers/cetait-comme-dans-un-film-dhorreur-une-americaine-de-13-ans-grievement-blessee-aux-tendons-de-la-main-par-un-barracuda-29-07-2026-22KDCFRSHFAKFCGZZVJAPW7XNE.php",
+      "titre_releve": "« C’était comme dans un film d’horreur » : une Américaine de 13 ans grièvement blessée aux tendons de la main par un barracuda",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/politique/informations-manifestement-mensongeres-lenquete-pour-prise-illegale-dinteret-visant-renaud-muselier-classee-sans-suite-29-07-2026-V4HUDHCXTFCJ5F3UW2QBSBCNNM.php",
+      "titre_releve": "« Informations manifestement mensongères » : l’enquête pour prise illégale d’intérêt visant Renaud Muselier classée sans suite",
+      "publication_flux": "",
+      "evenement": null
+    },
+    {
+      "media": "le-parisien",
+      "url": "https://www.leparisien.fr/culture-loisirs/cinema/jared-leto-accuse-dagressions-sexuelles-par-quatre-femmes-dans-un-documentaire-de-la-bbc-29-07-2026-LLCFZHSNMJBUVNYNYPI5C3INWU.php",
+      "titre_releve": "« Je n’ai jamais agressé sexuellement qui que ce soit de toute ma vie » : Jared Leto se défend face à de nouvelles accusations d’agressions sexuelles",
+      "publication_flux": "",
+      "evenement": null
+    }
+  ]
+}

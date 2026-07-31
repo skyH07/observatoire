@@ -161,7 +161,19 @@ def mode_propositions(limite: int) -> int:
         for article in tomllib.loads(chemin.read_text(encoding="utf-8")).get("article", [])
     }
  
+    # Ne proposer que le neuf : les adresses déjà écrites dans un fichier de
+    # propositions ne reviennent pas. L'union des fichiers reste le journal
+    # complet de tout ce qui a été vu.
     PROPOSITIONS.mkdir(exist_ok=True)
+    for fichier in PROPOSITIONS.glob("*.json"):
+        try:
+            anciennes = json.loads(fichier.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            continue
+        connues |= {
+            c.get("url") for c in anciennes.get("candidats", []) if c.get("url")
+        }
+ 
     candidats = []
  
     deja_vues = set()
